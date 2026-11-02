@@ -1,0 +1,6 @@
+type,label,km,km_buried,km_open,pct_buried,ways,share_of_buried_pct
+river,Rivers,415.33,35.82,379.51,8.62,980,15.72
+stream,Streams and brooks,509.82,153.01,356.82,30.01,2361,67.17
+canal,Canals,130.17,7.78,122.38,5.98,355,3.42
+drain,Drains,146.08,22.52,123.55,15.42,831,9.89
+ditch,Ditches,95.34,8.66,86.68,9.09,784,3.8

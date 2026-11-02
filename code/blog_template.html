@@ -1,0 +1,119 @@
+<!-- wp:paragraph -->
+<p><em>Under London's streets run dozens of rivers that were bricked over, piped and turned into sewers. I measured how much of the capital's mapped waterway still flows in the open, how much runs in the dark, and what the open map can and cannot tell us about the Fleet, the Tyburn, the Westbourne and the rest.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/buried-rivers/">Explore the interactive map</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23873535">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Stand on the platform at Sloane Square and a river passes over your head. The Westbourne, which rises in Hampstead, gave Bayswater its name and was dammed to make the Serpentine, crosses the station in an iron pipe. A few streets east, the Tyburn runs beneath Buckingham Palace, and beyond it the Fleet, which gave its name to Fleet Street, flows under Farringdon Road in a sewer. London was built on top of its streams, and most of them are still there, out of sight.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>OpenStreetMap, the open map that volunteers keep up to date, records many of these hidden waterways, tagged as running in culverts or tunnels. I took every river, stream, canal, drain and ditch it maps inside Greater London, {{gl.km|int}} km of them, and measured which parts are underground. The answer: {{gl.km_buried|int}} km, or {{gl.pct_buried|pc1}}. About one kilometre in {{gl.one_in|int}} runs in the dark.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_map.png|Map of Greater London showing every waterway in OpenStreetMap: rivers and streams in blue, the Thames as a broad pale blue band, and buried sections as dashed red lines with a soft glow. Red clusters stand out in north London around the Moselle Brook and Mutton Brook, in the centre where the Westbourne, Tyburn and Fleet run down to the Thames, and in the south east around the Ravensbourne, Kyd Brook and Wogebourne|Every waterway OpenStreetMap maps in Greater London. Blue: open water. Red dashes: buried in culverts, pipes or tunnels.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Small streams went first</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The big rivers mostly survived, because they were too large to cover: only {{types.river.pct_buried|pc1}} of the length tagged as river is underground, and almost none of the Thames. It was the small streams that disappeared. Of {{types.stream.km|int}} km of streams and brooks, {{types.stream.pct_buried|int}}% are buried, and they make up {{types.stream.share_of_buried_pct|int}}% of all the buried waterway in London.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_types.png|Horizontal bar chart of kilometres of waterway in Greater London by type, split into open in blue and buried in red: rivers 415 km, 9% buried; streams and brooks 510 km, 30% buried; canals 130 km, 6% buried; drains 146 km, 15% buried; ditches 95 km, 9% buried|Open and buried waterway by type, inside Greater London.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The Tyburn never sees daylight</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Among the {{rank.n_big|int}} named waterways with at least {{rank.min_km|int}} km mapped, {{rank.n_big_over_half|int}} are more than half buried. The Tyburn is buried for every metre of its {{lost.tyburn.km|f1}} km. The Westbourne is {{lost.westbourne.pct_buried|int}}% underground and the Fleet {{lost.fleet.pct_buried|int}}%, its only open water being the ponds on Hampstead Heath where it rises. By sheer length of tunnel, though, the leader is the Moselle Brook in Tottenham, with {{lost.moselle.km_buried|f1}} km of culvert. Many of the others are suburban brooks piped in the twentieth century as estates were built over them.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_rank.png|Two bar charts. Left, the most buried named waterways by share: the Tyburn, Muswell Stream, Cholmeley Brook and Stonebridge Brook at 100%, the Westbourne at 99%, Lower Kid Brook at 94%, the Fleet at 93% and the Moselle Brook at 91%. Right, by buried kilometres: Moselle Brook 15.7, Westbourne 12.5, Tyburn 12.1, Fleet 10.6, Mutton Brook 6.2. Rivers on Wikipedia's list of lost rivers are named in gold|London's most buried rivers, by share (left) and by kilometres (right).}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">From open sewers to Bazalgette</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The lost rivers' Wikipedia articles tell how it happened. After the Great Fire the Fleet was turned into the New Canal, finished in {{wiki.fleet_canal|raw}} under Robert Hooke; it was covered over in stages from {{wiki.fleet_market|raw}} until the {{wiki.fleet_last|raw}}. The Westbourne fed the Serpentine from {{wiki.west_serp|raw}} until {{wiki.west_stop|raw}}, when it had become too foul. The Effra was classed as an open sewer below North Brixton by {{wiki.effra_sewer|raw}} and arched over in {{wiki.effra_arch|raw}}. In {{wiki.neck_dickens|raw}} Charles Dickens called Jacob's Island, on the tidal ditches of the Neckinger, the filthiest of the many places hidden in London. Then Joseph Bazalgette's sewers gathered them up: his northern high level sewer swallowed the Hackney Brook in {{wiki.hack_sewer|raw}}.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_central.png|Map of central London from Hampstead to Brixton with the famous lost rivers glowing gold over red dashed buried lines: the Westbourne running south past Sloane Square, the Tyburn past Buckingham Palace, the Fleet from Hampstead Heath to Blackfriars, the short Walbrook in the City and the Neckinger south of the river, with a fragment of the Effra near Vauxhall and Chelsea Creek, the mouth of Counter's Creek|Central London's lost rivers, with how much of each is buried.}}
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p>The Fleet, the Tyburn and the Westbourne are {{lost_sum.big3_pct|int}}% underground: {{lost_sum.big3_buried|f1}} of {{lost_sum.big3_km|f1}} mapped kilometres.</p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Inner London buried its rivers twice as often</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Leaving out the Thames, {{inner.pct_buried|int}}% of the waterway mapped in inner London is buried, against {{outer.pct_buried|int}}% in outer London. Every mapped metre in the City of London is underground, and Westminster ({{boroughs.Westminster.pct_buried|int}}%) and Camden ({{boroughs.Camden.pct_buried|int}}%) come next. Haringey has the most buried waterway of any borough, {{boroughs.Haringey.km_buried|f1}} km, thanks to the Moselle and its neighbours. And Hackney comes bottom, with {{boroughs.Hackney.pct_buried|pc1}}, not because it kept its rivers but because the Hackney Brook, which once ran right across it, is not on the map at all.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_boroughs.png|Map of the London boroughs shaded by the share of their mapped waterway that is buried, from pale for under 10% to dark red for the City of London at 100%, with Westminster 74%, Camden 73%, Haringey 62%, Lambeth 51% and Greenwich 45% among the darkest, Hackney nearly white at 1%, and a purple line around inner London|Share of each borough's mapped waterway that is buried. The Thames is left out.}}
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What the map cannot show</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An open map records what volunteers can see or trace, and a river that has become a sewer is hard to trace. Of {{lost_sum.n|int}} lost rivers I looked for, {{lost_sum.unmapped|int}} are not mapped as waterways at all: the Hackney Brook, the Peck, Earl's Sluice, Stamford Brook and Falcon Brook. The Effra, which once drained some {{wiki.effra_basin|int}} square kilometres of south London, appears as {{lost.effra.km|f2}} km of culvert, and Counter's Creek only as its open tidal mouth, Chelsea Creek. So the totals here are a floor. There is a good deal more buried river under London than any map shows.</p>
+<!-- /wp:paragraph -->
+
+{{IMG|b_lost.png|Bar chart of the lost rivers on Wikipedia's list and the kilometres OpenStreetMap maps of each inside Greater London, buried in red and open in blue: Moselle Brook 17.3 km, Westbourne 12.6, Tyburn 12.1, Fleet 11.5, Quaggy 8.8, Graveney 8.7, Wogebourne 7.2, Muswell Stream 4.2, Neckinger 3.4, Walbrook 1.9, Counter's Creek 0.5 and Effra 0.1, while Hackney Brook, Peck, Earl's Sluice, Stamford Brook and Falcon Brook are not mapped as waterways|The lost rivers, and how much of each OpenStreetMap still traces.}}
+
+<!-- wp:paragraph -->
+<p>Some of the buried rivers are coming back. In the {{wiki.quag_concrete|raw}} the Quaggy was forced into straight concrete channels; at Chinbrook Meadows the concrete was torn out and the river given back its bends, a project finished in {{wiki.quag_restored|raw}}. In {{wiki_sub.lrap_year|raw}} the London Rivers Action Plan set out to bring more rivers back to the surface. The Fleet and the Tyburn are unlikely to see the sky again, but you can still read their valleys in the slope of the streets, and hear the Fleet through a grating in Ray Street, Clerkenwell.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I downloaded every OpenStreetMap way tagged as a river, stream, canal, drain or ditch in and around London and counted a way as buried if it is tagged as a culvert or tunnel, as covered or underground, or is drawn below ground level. I clipped each way to the Greater London boundary and the borough outlines from Natural Earth and measured its length, and grouped ways by name into rivers. A few extra channel lines drawn beside the Thames were left out so that the river is not counted twice. The histories come from English Wikipedia's articles on each river; I give no date that they do not. The paper sets out every step and caveat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://maps.tristanhotham.com/buried-rivers/">Explore the interactive map</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23873535">Read the paper</a></div>
+<!-- /wp:button -->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/buried-rivers">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Waterways: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, Open Database Licence. The derived waterway data are also ODbL.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Histories: English Wikipedia, <a href="https://en.wikipedia.org/wiki/Subterranean_rivers_of_London">Subterranean rivers of London</a> and the articles on each river, CC BY-SA 4.0.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="https://www.naturalearthdata.com/">Natural Earth</a> outlines of Greater London and the boroughs (public domain).</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

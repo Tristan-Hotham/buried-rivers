@@ -1,0 +1,6757 @@
+{
+ "source": {
+  "ways_box": 8439,
+  "buried_ways_box": 2345,
+  "tunnel_or_neglayer": 2382,
+  "km_box": 2325.4,
+  "km_box_buried": 271.25,
+  "osm_year": "2026",
+  "bbox": [
+   51.28,
+   -0.52,
+   51.7,
+   0.34
+  ],
+  "ways_gl": 5311,
+  "ways_gl_buried": 1595,
+  "named_rivers_gl": 265,
+  "thames_dups": 17,
+  "thames_dups_km": 19.53,
+  "boroughs": 33,
+  "area_km2": 1604.3,
+  "types_box": {
+   "river": 1478,
+   "stream": 3959,
+   "canal": 554,
+   "drain": 1275,
+   "ditch": 1173
+  },
+  "checks": {
+   "elements": 8439,
+   "endpoint": "https://overpass.kumi.systems/api/interpreter",
+   "osm_base": "2026-07-15T15:22:01Z",
+   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+   "types": {
+    "river": 1478,
+    "stream": 3959,
+    "canal": 554,
+    "drain": 1275,
+    "ditch": 1173
+   },
+   "tunnel_tags": {
+    "(none)": 6194,
+    "yes": 352,
+    "culvert": 1843,
+    "no": 42,
+    "covered": 5,
+    "building_passage": 1,
+    "pipe": 2
+   },
+   "tunnel_or_neglayer": 2382,
+   "ways": 8439,
+   "buried_ways": 2345,
+   "named_ways": 3442,
+   "km_bbox": 2325.4,
+   "km_bbox_buried": 271.25,
+   "rule": {
+    "-|-|-|0": 6028,
+    "culvert|neg|-|1": 1747,
+    "yes|neg|-|1": 264,
+    "-|neg|-|1": 115,
+    "culvert|-|-|1": 93,
+    "yes|-|-|1": 87,
+    "no|-|-|0": 22,
+    "no|neg|-|0": 20,
+    "-|neg|yes|1": 20,
+    "-|1|-|0": 13,
+    "-|-|no|0": 5,
+    "-|2|-|0": 4,
+    "-|-|yes|1": 4,
+    "covered|-|-|1": 3,
+    "-|0|-|0": 2,
+    "covered|neg|-|1": 2,
+    "culvert|neg|yes|1": 2,
+    "-|neg|no|1": 2,
+    "pipe|neg|-|1": 2,
+    "-|1|yes|1": 1,
+    "building_passage|-|-|1": 1,
+    "yes|-|yes|1": 1,
+    "culvert|-|yes|1": 1
+   },
+   "thames_dups": 17,
+   "thames_dups_km_gl": 19.53
+  }
+ },
+ "gl": {
+  "km": 1296.73,
+  "km_buried": 227.8,
+  "km_open": 1068.94,
+  "pct_buried": 17.57,
+  "thames_km": 75.48,
+  "km_ex_thames": 1221.26,
+  "pct_ex_thames": 18.65,
+  "unnamed_km": 413.4,
+  "unnamed_pct_buried": 8.9,
+  "unnamed_share_pct": 31.88,
+  "named_km": 883.34,
+  "named_pct_buried": 21.62,
+  "km_per_km2": 0.808,
+  "buried_m_per_km2": 142,
+  "one_in": 6
+ },
+ "types": {
+  "river": {
+   "type": "river",
+   "label": "Rivers",
+   "km": 415.33,
+   "km_buried": 35.82,
+   "km_open": 379.51,
+   "pct_buried": 8.62,
+   "ways": 980,
+   "share_of_buried_pct": 15.72
+  },
+  "stream": {
+   "type": "stream",
+   "label": "Streams and brooks",
+   "km": 509.82,
+   "km_buried": 153.01,
+   "km_open": 356.82,
+   "pct_buried": 30.01,
+   "ways": 2361,
+   "share_of_buried_pct": 67.17
+  },
+  "canal": {
+   "type": "canal",
+   "label": "Canals",
+   "km": 130.17,
+   "km_buried": 7.78,
+   "km_open": 122.38,
+   "pct_buried": 5.98,
+   "ways": 355,
+   "share_of_buried_pct": 3.42
+  },
+  "drain": {
+   "type": "drain",
+   "label": "Drains",
+   "km": 146.08,
+   "km_buried": 22.52,
+   "km_open": 123.55,
+   "pct_buried": 15.42,
+   "ways": 831,
+   "share_of_buried_pct": 9.89
+  },
+  "ditch": {
+   "type": "ditch",
+   "label": "Ditches",
+   "km": 95.34,
+   "km_buried": 8.66,
+   "km_open": 86.68,
+   "pct_buried": 9.09,
+   "ways": 784,
+   "share_of_buried_pct": 3.8
+  }
+ },
+ "types_list": [
+  {
+   "type": "river",
+   "label": "Rivers",
+   "km": 415.33,
+   "km_buried": 35.82,
+   "km_open": 379.51,
+   "pct_buried": 8.62,
+   "ways": 980,
+   "share_of_buried_pct": 15.72
+  },
+  {
+   "type": "stream",
+   "label": "Streams and brooks",
+   "km": 509.82,
+   "km_buried": 153.01,
+   "km_open": 356.82,
+   "pct_buried": 30.01,
+   "ways": 2361,
+   "share_of_buried_pct": 67.17
+  },
+  {
+   "type": "canal",
+   "label": "Canals",
+   "km": 130.17,
+   "km_buried": 7.78,
+   "km_open": 122.38,
+   "pct_buried": 5.98,
+   "ways": 355,
+   "share_of_buried_pct": 3.42
+  },
+  {
+   "type": "drain",
+   "label": "Drains",
+   "km": 146.08,
+   "km_buried": 22.52,
+   "km_open": 123.55,
+   "pct_buried": 15.42,
+   "ways": 831,
+   "share_of_buried_pct": 9.89
+  },
+  {
+   "type": "ditch",
+   "label": "Ditches",
+   "km": 95.34,
+   "km_buried": 8.66,
+   "km_open": 86.68,
+   "pct_buried": 9.09,
+   "ways": 784,
+   "share_of_buried_pct": 3.8
+  }
+ ],
+ "rivers": {
+  "1 hampstead road lock 8": {
+   "key": "1 hampstead road lock 8",
+   "name": "1 Hampstead Road lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "10 johnsons lock 8": {
+   "key": "10 johnsons lock 8",
+   "name": "10 Johnson's Lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "11 salmon lane lock 8": {
+   "key": "11 salmon lane lock 8",
+   "name": "11 Salmon Lane Lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "2 hawley lock 8": {
+   "key": "2 hawley lock 8",
+   "name": "2 Hawley lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "3 kentish town lock 8": {
+   "key": "3 kentish town lock 8",
+   "name": "3 Kentish Town lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "6 sturts lock 8": {
+   "key": "6 sturts lock 8",
+   "name": "6 Sturts lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "7 actons lock 8": {
+   "key": "7 actons lock 8",
+   "name": "7 Actons Lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "8 old ford lock 8": {
+   "key": "8 old ford lock 8",
+   "name": "8 Old Ford lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "86 widewater lock 8": {
+   "key": "86 widewater lock 8",
+   "name": "86 Widewater Lock 8'",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "abbey creek": {
+   "key": "abbey creek",
+   "name": "Abbey Creek",
+   "km": 0.3,
+   "km_buried": 0.0,
+   "km_open": 0.3,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "admiralty cascade": {
+   "key": "admiralty cascade",
+   "name": "Admiralty Cascade",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "albion channel": {
+   "key": "albion channel",
+   "name": "Albion Channel",
+   "km": 0.59,
+   "km_buried": 0.0,
+   "km_open": 0.59,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark",
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "aldersbrook": {
+   "key": "aldersbrook",
+   "name": "Aldersbrook",
+   "km": 1.17,
+   "km_buried": 0.0,
+   "km_open": 1.17,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Newham",
+    "Redbridge"
+   ],
+   "lost": ""
+  },
+  "arundel spring": {
+   "key": "arundel spring",
+   "name": "Arundel Spring",
+   "km": 0.62,
+   "km_buried": 0.49,
+   "km_open": 0.13,
+   "pct_buried": 78.36,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "barking creek": {
+   "key": "barking creek",
+   "name": "Barking Creek",
+   "km": 2.51,
+   "km_buried": 0.0,
+   "km_open": 2.51,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Newham",
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "beam": {
+   "key": "beam",
+   "name": "River Beam",
+   "km": 7.39,
+   "km_buried": 0.09,
+   "km_open": 7.3,
+   "pct_buried": 1.15,
+   "ways": 8,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "beck": {
+   "key": "beck",
+   "name": "The Beck",
+   "km": 6.21,
+   "km_buried": 0.51,
+   "km_open": 5.71,
+   "pct_buried": 8.16,
+   "ways": 11,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Croydon"
+   ],
+   "lost": ""
+  },
+  "bell lane creek": {
+   "key": "bell lane creek",
+   "name": "Bell Lane Creek",
+   "km": 0.37,
+   "km_buried": 0.0,
+   "km_open": 0.37,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Wandsworth"
+   ],
+   "lost": ""
+  },
+  "belmont stream": {
+   "key": "belmont stream",
+   "name": "Belmont Stream",
+   "km": 1.01,
+   "km_buried": 0.47,
+   "km_open": 0.53,
+   "pct_buried": 46.95,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "beverley brook": {
+   "key": "beverley brook",
+   "name": "Beverley Brook",
+   "km": 14.54,
+   "km_buried": 1.95,
+   "km_open": 12.59,
+   "pct_buried": 13.42,
+   "ways": 53,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames",
+    "Richmond upon Thames",
+    "Sutton"
+   ],
+   "lost": ""
+  },
+  "birch wood ditch": {
+   "key": "birch wood ditch",
+   "name": "Birch Wood Ditch",
+   "km": 0.94,
+   "km_buried": 0.0,
+   "km_open": 0.94,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "black brook": {
+   "key": "black brook",
+   "name": "Black Brook",
+   "km": 0.92,
+   "km_buried": 0.39,
+   "km_open": 0.53,
+   "pct_buried": 42.64,
+   "ways": 13,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "blacks brook": {
+   "key": "blacks brook",
+   "name": "Black's Brook",
+   "km": 1.33,
+   "km_buried": 0.03,
+   "km_open": 1.3,
+   "pct_buried": 2.53,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "bonesgate stream": {
+   "key": "bonesgate stream",
+   "name": "Bonesgate Stream",
+   "km": 5.55,
+   "km_buried": 0.06,
+   "km_open": 5.49,
+   "pct_buried": 1.06,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames"
+   ],
+   "lost": ""
+  },
+  "border ditch": {
+   "key": "border ditch",
+   "name": "Border Ditch",
+   "km": 0.86,
+   "km_buried": 0.15,
+   "km_open": 0.71,
+   "pct_buried": 17.2,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "boundary ditch": {
+   "key": "boundary ditch",
+   "name": "Boundary Ditch",
+   "km": 1.84,
+   "km_buried": 1.14,
+   "km_open": 0.7,
+   "pct_buried": 61.86,
+   "ways": 3,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "boundary stream": {
+   "key": "boundary stream",
+   "name": "Boundary Stream",
+   "km": 0.38,
+   "km_buried": 0.04,
+   "km_open": 0.34,
+   "pct_buried": 10.31,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "bounds green brook": {
+   "key": "bounds green brook",
+   "name": "Bounds Green Brook",
+   "km": 2.56,
+   "km_buried": 1.23,
+   "km_open": 1.32,
+   "pct_buried": 48.21,
+   "ways": 14,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "bourne": {
+   "key": "bourne",
+   "name": "The Bourne",
+   "km": 3.68,
+   "km_buried": 2.93,
+   "km_open": 0.75,
+   "pct_buried": 79.54,
+   "ways": 17,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "bow creek": {
+   "key": "bow creek",
+   "name": "Bow Creek",
+   "km": 4.59,
+   "km_buried": 0.0,
+   "km_open": 4.59,
+   "pct_buried": 0.0,
+   "ways": 5,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets",
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "bow locks": {
+   "key": "bow locks",
+   "name": "Bow Locks",
+   "km": 0.04,
+   "km_buried": 0.0,
+   "km_open": 0.04,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "brent": {
+   "key": "brent",
+   "name": "River Brent",
+   "km": 20.77,
+   "km_buried": 1.45,
+   "km_open": 19.32,
+   "pct_buried": 6.98,
+   "ways": 40,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Ealing",
+    "Brent",
+    "Barnet",
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "brent canal feeder": {
+   "key": "brent canal feeder",
+   "name": "Brent Canal Feeder",
+   "km": 3.26,
+   "km_buried": 0.56,
+   "km_open": 2.7,
+   "pct_buried": 17.18,
+   "ways": 7,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Brent"
+   ],
+   "lost": ""
+  },
+  "brentford dock lock": {
+   "key": "brentford dock lock",
+   "name": "Brentford Dock Lock",
+   "km": 0.01,
+   "km_buried": 0.0,
+   "km_open": 0.01,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "brentford dock marina": {
+   "key": "brentford dock marina",
+   "name": "Brentford Dock Marina",
+   "km": 0.16,
+   "km_buried": 0.0,
+   "km_open": 0.16,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "bridgen stream": {
+   "key": "bridgen stream",
+   "name": "Bridgen Stream",
+   "km": 0.66,
+   "km_buried": 0.26,
+   "km_open": 0.4,
+   "pct_buried": 39.2,
+   "ways": 8,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "brimsdown ditch": {
+   "key": "brimsdown ditch",
+   "name": "Brimsdown Ditch",
+   "km": 3.0,
+   "km_buried": 0.17,
+   "km_open": 2.83,
+   "pct_buried": 5.71,
+   "ways": 11,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "brownies stream": {
+   "key": "brownies stream",
+   "name": "Brownies Stream",
+   "km": 0.29,
+   "km_buried": 0.0,
+   "km_open": 0.29,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "burnt oak brook": {
+   "key": "burnt oak brook",
+   "name": "Burnt Oak Brook",
+   "km": 2.76,
+   "km_buried": 1.11,
+   "km_open": 1.65,
+   "pct_buried": 40.2,
+   "ways": 11,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "butts canal": {
+   "key": "butts canal",
+   "name": "Butts Canal",
+   "km": 0.84,
+   "km_buried": 0.02,
+   "km_open": 0.82,
+   "pct_buried": 1.8,
+   "ways": 2,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "cannon brook": {
+   "key": "cannon brook",
+   "name": "Cannon Brook",
+   "km": 2.65,
+   "km_buried": 0.17,
+   "km_open": 2.48,
+   "pct_buried": 6.55,
+   "ways": 13,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "cannons brook": {
+   "key": "cannons brook",
+   "name": "Cannons Brook",
+   "km": 0.04,
+   "km_buried": 0.04,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "carbuncle ditch": {
+   "key": "carbuncle ditch",
+   "name": "Carbuncle Ditch",
+   "km": 1.05,
+   "km_buried": 1.04,
+   "km_open": 0.01,
+   "pct_buried": 99.49,
+   "ways": 3,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "carters brook": {
+   "key": "carters brook",
+   "name": "Carter's Brook",
+   "km": 1.41,
+   "km_buried": 0.05,
+   "km_open": 1.36,
+   "pct_buried": 3.76,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "central basin": {
+   "key": "central basin",
+   "name": "Central Basin",
+   "km": 0.04,
+   "km_buried": 0.0,
+   "km_open": 0.04,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "chaffinch brook": {
+   "key": "chaffinch brook",
+   "name": "Chaffinch Brook",
+   "km": 3.24,
+   "km_buried": 1.65,
+   "km_open": 1.59,
+   "pct_buried": 50.94,
+   "ways": 14,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "channelsea": {
+   "key": "channelsea",
+   "name": "Channelsea River",
+   "km": 2.23,
+   "km_buried": 1.05,
+   "km_open": 1.17,
+   "pct_buried": 47.34,
+   "ways": 7,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Newham",
+    "Hackney",
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "chelsea creek": {
+   "key": "chelsea creek",
+   "name": "Counter's Creek",
+   "km": 0.47,
+   "km_buried": 0.0,
+   "km_open": 0.47,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hammersmith and Fulham",
+    "Kensington and Chelsea"
+   ],
+   "lost": "counters creek"
+  },
+  "chelsea harbour lock": {
+   "key": "chelsea harbour lock",
+   "name": "Chelsea Harbour Lock",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "chelsea harbour marina": {
+   "key": "chelsea harbour marina",
+   "name": "Chelsea Harbour Marina",
+   "km": 0.08,
+   "km_buried": 0.0,
+   "km_open": 0.08,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hammersmith and Fulham"
+   ],
+   "lost": ""
+  },
+  "chelsea harbour pathway": {
+   "key": "chelsea harbour pathway",
+   "name": "Chelsea Harbour Pathway",
+   "km": 0.14,
+   "km_buried": 0.0,
+   "km_open": 0.14,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hammersmith and Fulham"
+   ],
+   "lost": ""
+  },
+  "ching": {
+   "key": "ching",
+   "name": "River Ching",
+   "km": 7.72,
+   "km_buried": 0.87,
+   "km_open": 6.85,
+   "pct_buried": 11.29,
+   "ways": 24,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Waltham Forest",
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "chiswick quay lock": {
+   "key": "chiswick quay lock",
+   "name": "Chiswick Quay Lock",
+   "km": 0.01,
+   "km_buried": 0.0,
+   "km_open": 0.01,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "chiswick quay marina": {
+   "key": "chiswick quay marina",
+   "name": "Chiswick Quay Marina",
+   "km": 0.15,
+   "km_buried": 0.0,
+   "km_open": 0.15,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "cholmeley brook": {
+   "key": "cholmeley brook",
+   "name": "Cholmeley Brook",
+   "km": 3.27,
+   "km_buried": 3.27,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 5,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "city mill": {
+   "key": "city mill",
+   "name": "City Mill River",
+   "km": 1.13,
+   "km_buried": 0.0,
+   "km_open": 1.13,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "city mill lock": {
+   "key": "city mill lock",
+   "name": "City Mill Lock",
+   "km": 0.04,
+   "km_buried": 0.0,
+   "km_open": 0.04,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "clitheroes lock 99 7 7": {
+   "key": "clitheroes lock 99 7 7",
+   "name": "Clitheroes lock 99 7,7\"",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "clitterhouse brook": {
+   "key": "clitterhouse brook",
+   "name": "Clitterhouse Brook",
+   "km": 1.16,
+   "km_buried": 0.62,
+   "km_open": 0.54,
+   "pct_buried": 53.51,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "clothworkers brook": {
+   "key": "clothworkers brook",
+   "name": "Clothworkers Brook",
+   "km": 0.97,
+   "km_buried": 0.08,
+   "km_open": 0.88,
+   "pct_buried": 8.39,
+   "ways": 8,
+   "types": [
+    "ditch",
+    "drain"
+   ],
+   "boroughs": [
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "colne": {
+   "key": "colne",
+   "name": "River Colne",
+   "km": 3.44,
+   "km_buried": 0.7,
+   "km_open": 2.74,
+   "pct_buried": 20.25,
+   "ways": 6,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "common watercourse": {
+   "key": "common watercourse",
+   "name": "Common Watercourse",
+   "km": 3.46,
+   "km_buried": 0.0,
+   "km_open": 3.46,
+   "pct_buried": 0.0,
+   "ways": 4,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "comreddy gutter": {
+   "key": "comreddy gutter",
+   "name": "Comreddy Gutter",
+   "km": 0.53,
+   "km_buried": 0.21,
+   "km_open": 0.32,
+   "pct_buried": 40.38,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "connaught passage": {
+   "key": "connaught passage",
+   "name": "Connaught Passage",
+   "km": 0.08,
+   "km_buried": 0.0,
+   "km_open": 0.08,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "coombe brook": {
+   "key": "coombe brook",
+   "name": "Coombe Brook",
+   "km": 0.98,
+   "km_buried": 0.16,
+   "km_open": 0.82,
+   "pct_buried": 16.66,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames"
+   ],
+   "lost": ""
+  },
+  "coppermill stream": {
+   "key": "coppermill stream",
+   "name": "Coppermill Stream",
+   "km": 2.01,
+   "km_buried": 0.0,
+   "km_open": 2.01,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Haringey",
+    "Hackney"
+   ],
+   "lost": ""
+  },
+  "coston brook": {
+   "key": "coston brook",
+   "name": "Coston brook",
+   "km": 0.48,
+   "km_buried": 0.0,
+   "km_open": 0.48,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Harrow"
+   ],
+   "lost": ""
+  },
+  "costons brook": {
+   "key": "costons brook",
+   "name": "Costons Brook",
+   "km": 1.99,
+   "km_buried": 0.96,
+   "km_open": 1.03,
+   "pct_buried": 48.24,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "costons brook bullibrook": {
+   "key": "costons brook bullibrook",
+   "name": "Costons Brook/Bullibrook",
+   "km": 0.12,
+   "km_buried": 0.12,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "costons brook tributary": {
+   "key": "costons brook tributary",
+   "name": "Costons Brook Tributary",
+   "km": 0.05,
+   "km_buried": 0.0,
+   "km_open": 0.05,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "cran brook": {
+   "key": "cran brook",
+   "name": "Cran Brook",
+   "km": 5.05,
+   "km_buried": 4.35,
+   "km_open": 0.7,
+   "pct_buried": 86.14,
+   "ways": 10,
+   "types": [
+    "ditch",
+    "stream"
+   ],
+   "boroughs": [
+    "Redbridge"
+   ],
+   "lost": ""
+  },
+  "crane": {
+   "key": "crane",
+   "name": "River Crane",
+   "km": 15.51,
+   "km_buried": 0.41,
+   "km_open": 15.11,
+   "pct_buried": 2.63,
+   "ways": 23,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Hounslow",
+    "Richmond upon Thames",
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "cray": {
+   "key": "cray",
+   "name": "River Cray",
+   "km": 13.33,
+   "km_buried": 0.59,
+   "km_open": 12.74,
+   "pct_buried": 4.4,
+   "ways": 25,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley",
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "creek": {
+   "key": "creek",
+   "name": "The Creek",
+   "km": 0.35,
+   "km_buried": 0.26,
+   "km_open": 0.09,
+   "pct_buried": 73.62,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hammersmith and Fulham"
+   ],
+   "lost": ""
+  },
+  "crossway canal": {
+   "key": "crossway canal",
+   "name": "Crossway Canal",
+   "km": 1.46,
+   "km_buried": 0.31,
+   "km_open": 1.15,
+   "pct_buried": 21.2,
+   "ways": 8,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Barking and Dagenham",
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "cuffley brook": {
+   "key": "cuffley brook",
+   "name": "Cuffley Brook",
+   "km": 1.98,
+   "km_buried": 0.01,
+   "km_open": 1.97,
+   "pct_buried": 0.49,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "dagenham brook": {
+   "key": "dagenham brook",
+   "name": "Dagenham Brook",
+   "km": 2.85,
+   "km_buried": 0.05,
+   "km_open": 2.79,
+   "pct_buried": 1.8,
+   "ways": 9,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Waltham Forest"
+   ],
+   "lost": ""
+  },
+  "danson stream": {
+   "key": "danson stream",
+   "name": "Danson Stream",
+   "km": 2.47,
+   "km_buried": 1.41,
+   "km_open": 1.06,
+   "pct_buried": 56.99,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "darent": {
+   "key": "darent",
+   "name": "Darent",
+   "km": 2.91,
+   "km_buried": 0.01,
+   "km_open": 2.9,
+   "pct_buried": 0.36,
+   "ways": 4,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "dead dog tunnel": {
+   "key": "dead dog tunnel",
+   "name": "Dead Dog Tunnel",
+   "km": 0.01,
+   "km_buried": 0.0,
+   "km_open": 0.01,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "deans brook": {
+   "key": "deans brook",
+   "name": "Dean's Brook",
+   "km": 2.95,
+   "km_buried": 0.34,
+   "km_open": 2.61,
+   "pct_buried": 11.6,
+   "ways": 14,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "decoy brook": {
+   "key": "decoy brook",
+   "name": "Decoy Brook",
+   "km": 3.6,
+   "km_buried": 2.23,
+   "km_open": 1.37,
+   "pct_buried": 61.92,
+   "ways": 13,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "dell": {
+   "key": "dell",
+   "name": "The Dell",
+   "km": 0.11,
+   "km_buried": 0.02,
+   "km_open": 0.09,
+   "pct_buried": 19.82,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Westminster"
+   ],
+   "lost": ""
+  },
+  "dollis brook": {
+   "key": "dollis brook",
+   "name": "Dollis Brook",
+   "km": 13.42,
+   "km_buried": 0.02,
+   "km_open": 13.4,
+   "pct_buried": 0.14,
+   "ways": 6,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "duke of northumberlands": {
+   "key": "duke of northumberlands",
+   "name": "Duke of Northumberland's River",
+   "km": 11.85,
+   "km_buried": 0.17,
+   "km_open": 11.68,
+   "pct_buried": 1.43,
+   "ways": 16,
+   "types": [
+    "canal",
+    "river"
+   ],
+   "boroughs": [
+    "Hillingdon",
+    "Hounslow",
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "east dock": {
+   "key": "east dock",
+   "name": "East Dock",
+   "km": 0.21,
+   "km_buried": 0.0,
+   "km_open": 0.21,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "east kyd brook": {
+   "key": "east kyd brook",
+   "name": "East Kyd Brook",
+   "km": 1.92,
+   "km_buried": 0.26,
+   "km_open": 1.66,
+   "pct_buried": 13.32,
+   "ways": 13,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "east pyl brook": {
+   "key": "east pyl brook",
+   "name": "East Pyl Brook",
+   "km": 3.55,
+   "km_buried": 0.93,
+   "km_open": 2.62,
+   "pct_buried": 26.19,
+   "ways": 13,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Merton",
+    "Sutton"
+   ],
+   "lost": ""
+  },
+  "edgware brook": {
+   "key": "edgware brook",
+   "name": "Edgware Brook",
+   "km": 2.07,
+   "km_buried": 0.16,
+   "km_open": 1.91,
+   "pct_buried": 7.68,
+   "ways": 13,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Harrow",
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "edgwarebury brook": {
+   "key": "edgwarebury brook",
+   "name": "Edgwarebury Brook",
+   "km": 3.08,
+   "km_buried": 1.16,
+   "km_open": 1.92,
+   "pct_buried": 37.73,
+   "ways": 16,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "edlmann ditch": {
+   "key": "edlmann ditch",
+   "name": "Edlmann Ditch",
+   "km": 0.54,
+   "km_buried": 0.05,
+   "km_open": 0.49,
+   "pct_buried": 8.98,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "effra": {
+   "key": "effra",
+   "name": "River Effra",
+   "km": 0.13,
+   "km_buried": 0.13,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Lambeth",
+    "Wandsworth"
+   ],
+   "lost": "effra"
+  },
+  "elmend brook": {
+   "key": "elmend brook",
+   "name": "Elmend Brook",
+   "km": 1.51,
+   "km_buried": 0.11,
+   "km_open": 1.4,
+   "pct_buried": 7.1,
+   "ways": 11,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "ember": {
+   "key": "ember",
+   "name": "River Ember",
+   "km": 0.79,
+   "km_buried": 0.0,
+   "km_open": 0.79,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "entrance into brentford dock marina": {
+   "key": "entrance into brentford dock marina",
+   "name": "Entrance into Brentford Dock Marina",
+   "km": 0.06,
+   "km_buried": 0.0,
+   "km_open": 0.06,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "entrance lock": {
+   "key": "entrance lock",
+   "name": "Entrance Lock",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "entrance path to chiswick quay marina": {
+   "key": "entrance path to chiswick quay marina",
+   "name": "Entrance Path to Chiswick Quay Marina",
+   "km": 0.09,
+   "km_buried": 0.0,
+   "km_open": 0.09,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "fairy hall flow": {
+   "key": "fairy hall flow",
+   "name": "Fairy Hall Flow",
+   "km": 2.32,
+   "km_buried": 1.07,
+   "km_open": 1.26,
+   "pct_buried": 45.9,
+   "ways": 58,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "farm ravine": {
+   "key": "farm ravine",
+   "name": "Farm Ravine",
+   "km": 0.64,
+   "km_buried": 0.0,
+   "km_open": 0.64,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames",
+    "Merton"
+   ],
+   "lost": ""
+  },
+  "felthamhill brook": {
+   "key": "felthamhill brook",
+   "name": "Felthamhill Brook",
+   "km": 0.6,
+   "km_buried": 0.0,
+   "km_open": 0.6,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "figges marsh ditch": {
+   "key": "figges marsh ditch",
+   "name": "Figges Marsh Ditch",
+   "km": 0.71,
+   "km_buried": 0.0,
+   "km_open": 0.71,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Merton"
+   ],
+   "lost": ""
+  },
+  "fleet": {
+   "key": "fleet",
+   "name": "River Fleet",
+   "km": 11.47,
+   "km_buried": 10.62,
+   "km_open": 0.85,
+   "pct_buried": 92.57,
+   "ways": 19,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Camden",
+    "Haringey"
+   ],
+   "lost": "fleet"
+  },
+  "flood channel": {
+   "key": "flood channel",
+   "name": "Flood channel",
+   "km": 0.83,
+   "km_buried": 0.0,
+   "km_open": 0.83,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "folly brook": {
+   "key": "folly brook",
+   "name": "Folly Brook",
+   "km": 4.4,
+   "km_buried": 0.03,
+   "km_open": 4.36,
+   "pct_buried": 0.78,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "foots cray stream": {
+   "key": "foots cray stream",
+   "name": "Foots Cray Stream",
+   "km": 0.94,
+   "km_buried": 0.62,
+   "km_open": 0.32,
+   "pct_buried": 66.32,
+   "ways": 8,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "foxberry stream": {
+   "key": "foxberry stream",
+   "name": "Foxberry Stream",
+   "km": 0.44,
+   "km_buried": 0.02,
+   "km_open": 0.42,
+   "pct_buried": 5.42,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "frays": {
+   "key": "frays",
+   "name": "Frays River",
+   "km": 2.93,
+   "km_buried": 0.0,
+   "km_open": 2.93,
+   "pct_buried": 0.0,
+   "ways": 5,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "frogs ditch": {
+   "key": "frogs ditch",
+   "name": "Frogs Ditch",
+   "km": 2.05,
+   "km_buried": 0.0,
+   "km_open": 2.05,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "gadder brook": {
+   "key": "gadder brook",
+   "name": "Gadder Brook",
+   "km": 0.2,
+   "km_buried": 0.0,
+   "km_open": 0.2,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Brent"
+   ],
+   "lost": ""
+  },
+  "glenbrook south drain": {
+   "key": "glenbrook south drain",
+   "name": "Glenbrook South Drain",
+   "km": 0.88,
+   "km_buried": 0.04,
+   "km_open": 0.84,
+   "pct_buried": 4.35,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "gores": {
+   "key": "gores",
+   "name": "The Gores",
+   "km": 4.83,
+   "km_buried": 0.77,
+   "km_open": 4.06,
+   "pct_buried": 15.93,
+   "ways": 21,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "grand union canal": {
+   "key": "grand union canal",
+   "name": "Grand Union Canal",
+   "km": 18.41,
+   "km_buried": 0.01,
+   "km_open": 18.4,
+   "pct_buried": 0.04,
+   "ways": 50,
+   "types": [
+    "canal",
+    "river"
+   ],
+   "boroughs": [
+    "Hillingdon",
+    "Ealing",
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "grand union canal paddington arm": {
+   "key": "grand union canal paddington arm",
+   "name": "Grand Union Canal (Paddington Arm)",
+   "km": 12.9,
+   "km_buried": 0.0,
+   "km_open": 12.9,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Ealing",
+    "Hillingdon",
+    "Brent"
+   ],
+   "lost": ""
+  },
+  "grand union canal paddington branch": {
+   "key": "grand union canal paddington branch",
+   "name": "Grand Union Canal (Paddington Branch)",
+   "km": 8.93,
+   "km_buried": 0.0,
+   "km_open": 8.93,
+   "pct_buried": 0.0,
+   "ways": 9,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Brent",
+    "Westminster",
+    "Ealing",
+    "Hammersmith and Fulham"
+   ],
+   "lost": ""
+  },
+  "graveney": {
+   "key": "graveney",
+   "name": "River Graveney",
+   "km": 5.01,
+   "km_buried": 1.72,
+   "km_open": 3.29,
+   "pct_buried": 34.29,
+   "ways": 38,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Merton",
+    "Wandsworth",
+    "Lambeth"
+   ],
+   "lost": "graveney"
+  },
+  "great thrift ditch": {
+   "key": "great thrift ditch",
+   "name": "Great Thrift Ditch",
+   "km": 0.2,
+   "km_buried": 0.12,
+   "km_open": 0.08,
+   "pct_buried": 61.73,
+   "ways": 2,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "green brook": {
+   "key": "green brook",
+   "name": "Green Brook",
+   "km": 2.05,
+   "km_buried": 0.05,
+   "km_open": 2.0,
+   "pct_buried": 2.57,
+   "ways": 5,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet",
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "greenland dock": {
+   "key": "greenland dock",
+   "name": "Greenland Dock",
+   "km": 0.5,
+   "km_buried": 0.0,
+   "km_open": 0.5,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "grove park ditch": {
+   "key": "grove park ditch",
+   "name": "Grove Park Ditch",
+   "km": 1.42,
+   "km_buried": 0.29,
+   "km_open": 1.14,
+   "pct_buried": 20.22,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "gumping ditch": {
+   "key": "gumping ditch",
+   "name": "Gumping Ditch",
+   "km": 0.29,
+   "km_buried": 0.0,
+   "km_open": 0.29,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "halls farm ditch": {
+   "key": "halls farm ditch",
+   "name": "Halls Farm Ditch",
+   "km": 0.07,
+   "km_buried": 0.0,
+   "km_open": 0.07,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "hand trough creek": {
+   "key": "hand trough creek",
+   "name": "Hand Trough Creek",
+   "km": 0.19,
+   "km_buried": 0.0,
+   "km_open": 0.19,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "hanwell lock": {
+   "key": "hanwell lock",
+   "name": "Hanwell Lock",
+   "km": 0.11,
+   "km_buried": 0.0,
+   "km_open": 0.11,
+   "pct_buried": 0.0,
+   "ways": 4,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "hanwell lock 91 7 11": {
+   "key": "hanwell lock 91 7 11",
+   "name": "Hanwell Lock 91 7,11\"",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "hanwell locks 91 97 53 2": {
+   "key": "hanwell locks 91 97 53 2",
+   "name": "Hanwell Locks 91-97 53,2\"",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "harrow canal": {
+   "key": "harrow canal",
+   "name": "Harrow Canal",
+   "km": 1.46,
+   "km_buried": 0.0,
+   "km_open": 1.46,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "hawkwood farm ditch": {
+   "key": "hawkwood farm ditch",
+   "name": "Hawkwood Farm Ditch",
+   "km": 0.13,
+   "km_buried": 0.0,
+   "km_open": 0.13,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "hendon cemetery drain": {
+   "key": "hendon cemetery drain",
+   "name": "Hendon Cemetery Drain",
+   "km": 0.84,
+   "km_buried": 0.0,
+   "km_open": 0.84,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "hertford union canal": {
+   "key": "hertford union canal",
+   "name": "Hertford Union Canal",
+   "km": 1.95,
+   "km_buried": 0.0,
+   "km_open": 1.95,
+   "pct_buried": 0.0,
+   "ways": 8,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hackney"
+   ],
+   "lost": ""
+  },
+  "hogsmill": {
+   "key": "hogsmill",
+   "name": "Hogsmill River",
+   "km": 8.05,
+   "km_buried": 0.33,
+   "km_open": 7.71,
+   "pct_buried": 4.16,
+   "ways": 15,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames",
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "hollyhill brook": {
+   "key": "hollyhill brook",
+   "name": "Hollyhill Brook",
+   "km": 0.83,
+   "km_buried": 0.07,
+   "km_open": 0.76,
+   "pct_buried": 8.52,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "houndsden gutter": {
+   "key": "houndsden gutter",
+   "name": "Houndsden Gutter",
+   "km": 1.71,
+   "km_buried": 0.15,
+   "km_open": 1.56,
+   "pct_buried": 8.97,
+   "ways": 8,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "ickenham stream": {
+   "key": "ickenham stream",
+   "name": "Ickenham Stream",
+   "km": 2.78,
+   "km_buried": 0.27,
+   "km_open": 2.52,
+   "pct_buried": 9.53,
+   "ways": 14,
+   "types": [
+    "ditch",
+    "drain"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "ingrebourne": {
+   "key": "ingrebourne",
+   "name": "River Ingrebourne",
+   "km": 17.61,
+   "km_buried": 0.28,
+   "km_open": 17.34,
+   "pct_buried": 1.57,
+   "ways": 17,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "islington tunnel regents canal": {
+   "key": "islington tunnel regents canal",
+   "name": "Islington Tunnel (Regent's Canal)",
+   "km": 0.87,
+   "km_buried": 0.87,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Islington",
+    "Camden"
+   ],
+   "lost": ""
+  },
+  "kemnal stream": {
+   "key": "kemnal stream",
+   "name": "Kemnal Stream",
+   "km": 0.59,
+   "km_buried": 0.04,
+   "km_open": 0.55,
+   "pct_buried": 7.02,
+   "ways": 8,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "kenton brook": {
+   "key": "kenton brook",
+   "name": "Kenton Brook",
+   "km": 0.74,
+   "km_buried": 0.0,
+   "km_open": 0.74,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Harrow"
+   ],
+   "lost": ""
+  },
+  "kid brook": {
+   "key": "kid brook",
+   "name": "Kid Brook",
+   "km": 2.73,
+   "km_buried": 1.75,
+   "km_open": 0.98,
+   "pct_buried": 64.07,
+   "ways": 10,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich",
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "kyd brook": {
+   "key": "kyd brook",
+   "name": "Kyd Brook",
+   "km": 8.5,
+   "km_buried": 3.02,
+   "km_open": 5.48,
+   "pct_buried": 35.58,
+   "ways": 35,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "latchmere stream": {
+   "key": "latchmere stream",
+   "name": "Latchmere Stream",
+   "km": 0.05,
+   "km_buried": 0.0,
+   "km_open": 0.05,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "lea": {
+   "key": "lea",
+   "name": "River Lea",
+   "km": 4.7,
+   "km_buried": 0.04,
+   "km_open": 4.66,
+   "pct_buried": 0.78,
+   "ways": 11,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hackney",
+    "Waltham Forest",
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "lea or lee diversion": {
+   "key": "lea or lee diversion",
+   "name": "River Lea (or Lee) Diversion",
+   "km": 0.01,
+   "km_buried": 0.0,
+   "km_open": 0.01,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "leamington ditch": {
+   "key": "leamington ditch",
+   "name": "Leamington Ditch",
+   "km": 0.36,
+   "km_buried": 0.31,
+   "km_open": 0.05,
+   "pct_buried": 85.3,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "lee": {
+   "key": "lee",
+   "name": "River Lee",
+   "km": 5.08,
+   "km_buried": 0.0,
+   "km_open": 5.08,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "canal",
+    "river"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Hackney",
+    "Haringey",
+    "Waltham Forest"
+   ],
+   "lost": ""
+  },
+  "lee diversion": {
+   "key": "lee diversion",
+   "name": "River Lee Diversion",
+   "km": 4.75,
+   "km_buried": 0.0,
+   "km_open": 4.75,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "lee flood relief channel": {
+   "key": "lee flood relief channel",
+   "name": "River Lee Flood Relief Channel",
+   "km": 11.9,
+   "km_buried": 0.58,
+   "km_open": 11.32,
+   "pct_buried": 4.87,
+   "ways": 13,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Waltham Forest",
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "lee navigation": {
+   "key": "lee navigation",
+   "name": "River Lee Navigation",
+   "km": 13.77,
+   "km_buried": 0.07,
+   "km_open": 13.7,
+   "pct_buried": 0.5,
+   "ways": 36,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Haringey",
+    "Tower Hamlets",
+    "Hackney"
+   ],
+   "lost": ""
+  },
+  "lee navigation hackney cut": {
+   "key": "lee navigation hackney cut",
+   "name": "River Lee Navigation (Hackney Cut)",
+   "km": 3.1,
+   "km_buried": 0.0,
+   "km_open": 3.1,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hackney",
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "leeging beech gutter": {
+   "key": "leeging beech gutter",
+   "name": "Leeging Beech Gutter",
+   "km": 1.21,
+   "km_buried": 0.0,
+   "km_open": 1.21,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "lesser moselle brook": {
+   "key": "lesser moselle brook",
+   "name": "Lesser Moselle Brook",
+   "km": 2.16,
+   "km_buried": 1.47,
+   "km_open": 0.7,
+   "pct_buried": 67.85,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "limehouse basin lock": {
+   "key": "limehouse basin lock",
+   "name": "Limehouse Basin Lock",
+   "km": 0.08,
+   "km_buried": 0.0,
+   "km_open": 0.08,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "limehouse cut": {
+   "key": "limehouse cut",
+   "name": "Limehouse Cut",
+   "km": 2.45,
+   "km_buried": 0.0,
+   "km_open": 2.45,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "little quaggy": {
+   "key": "little quaggy",
+   "name": "Little Quaggy",
+   "km": 4.57,
+   "km_buried": 2.81,
+   "km_open": 1.77,
+   "pct_buried": 61.34,
+   "ways": 39,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich",
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "little thrift ditch": {
+   "key": "little thrift ditch",
+   "name": "Little Thrift Ditch",
+   "km": 0.18,
+   "km_buried": 0.06,
+   "km_open": 0.12,
+   "pct_buried": 33.33,
+   "ways": 2,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "longford": {
+   "key": "longford",
+   "name": "Longford River",
+   "km": 11.34,
+   "km_buried": 0.85,
+   "km_open": 10.48,
+   "pct_buried": 7.52,
+   "ways": 20,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Hounslow",
+    "Hillingdon",
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "longlands stream": {
+   "key": "longlands stream",
+   "name": "Longlands Stream",
+   "km": 1.8,
+   "km_buried": 1.42,
+   "km_open": 0.38,
+   "pct_buried": 78.99,
+   "ways": 11,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "lower kid brook": {
+   "key": "lower kid brook",
+   "name": "Lower Kid Brook",
+   "km": 3.09,
+   "km_buried": 2.92,
+   "km_open": 0.17,
+   "pct_buried": 94.42,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "loxford water": {
+   "key": "loxford water",
+   "name": "Loxford Water",
+   "km": 2.56,
+   "km_buried": 0.94,
+   "km_open": 1.62,
+   "pct_buried": 36.69,
+   "ways": 8,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Redbridge",
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "mad bess brook": {
+   "key": "mad bess brook",
+   "name": "Mad Bess Brook",
+   "km": 2.23,
+   "km_buried": 0.28,
+   "km_open": 1.95,
+   "pct_buried": 12.63,
+   "ways": 17,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "main stream": {
+   "key": "main stream",
+   "name": "Main Stream",
+   "km": 0.68,
+   "km_buried": 0.0,
+   "km_open": 0.68,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "mardyke": {
+   "key": "mardyke",
+   "name": "Mardyke",
+   "km": 2.13,
+   "km_buried": 0.0,
+   "km_open": 2.13,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "mayes brook": {
+   "key": "mayes brook",
+   "name": "Mayes Brook",
+   "km": 3.49,
+   "km_buried": 0.52,
+   "km_open": 2.98,
+   "pct_buried": 14.82,
+   "ways": 9,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barking and Dagenham",
+    "Redbridge"
+   ],
+   "lost": ""
+  },
+  "merryhills brook": {
+   "key": "merryhills brook",
+   "name": "Merryhills Brook",
+   "km": 3.03,
+   "km_buried": 0.04,
+   "km_open": 2.99,
+   "pct_buried": 1.3,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "mile end lock": {
+   "key": "mile end lock",
+   "name": "Mile End Lock",
+   "km": 0.02,
+   "km_buried": 0.0,
+   "km_open": 0.02,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "milk street ditch": {
+   "key": "milk street ditch",
+   "name": "Milk Street Ditch",
+   "km": 0.36,
+   "km_buried": 0.1,
+   "km_open": 0.27,
+   "pct_buried": 26.57,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "mill stream": {
+   "key": "mill stream",
+   "name": "Mill Stream",
+   "km": 2.3,
+   "km_buried": 0.02,
+   "km_open": 2.29,
+   "pct_buried": 0.79,
+   "ways": 5,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "moat": {
+   "key": "moat",
+   "name": "Moat",
+   "km": 0.18,
+   "km_buried": 0.0,
+   "km_open": 0.18,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "ditch",
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing",
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "mole": {
+   "key": "mole",
+   "name": "River Mole",
+   "km": 0.46,
+   "km_buried": 0.0,
+   "km_open": 0.46,
+   "pct_buried": 0.0,
+   "ways": 2,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "monken mead brook": {
+   "key": "monken mead brook",
+   "name": "Monken Mead Brook",
+   "km": 1.66,
+   "km_buried": 0.03,
+   "km_open": 1.63,
+   "pct_buried": 1.59,
+   "ways": 4,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "moore brook": {
+   "key": "moore brook",
+   "name": "Moore Brook",
+   "km": 0.61,
+   "km_buried": 0.0,
+   "km_open": 0.61,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "moselle": {
+   "key": "moselle",
+   "name": "Moselle Brook",
+   "km": 17.34,
+   "km_buried": 15.72,
+   "km_open": 1.61,
+   "pct_buried": 90.69,
+   "ways": 26,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Haringey",
+    "Enfield"
+   ],
+   "lost": "moselle"
+  },
+  "moselle brook new cut": {
+   "key": "moselle brook new cut",
+   "name": "Moselle Brook New Cut",
+   "km": 0.65,
+   "km_buried": 0.65,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "moselle brook relief culvert": {
+   "key": "moselle brook relief culvert",
+   "name": "Moselle Brook Relief Culvert",
+   "km": 1.03,
+   "km_buried": 1.03,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "mossops creek": {
+   "key": "mossops creek",
+   "name": "Mossops Creek",
+   "km": 0.44,
+   "km_buried": 0.0,
+   "km_open": 0.44,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "muswell stream": {
+   "key": "muswell stream",
+   "name": "Muswell Stream",
+   "km": 4.25,
+   "km_buried": 4.25,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 5,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Haringey",
+    "Enfield",
+    "Barnet"
+   ],
+   "lost": "muswell stream"
+  },
+  "mutton brook": {
+   "key": "mutton brook",
+   "name": "Mutton Brook",
+   "km": 9.37,
+   "km_buried": 6.22,
+   "km_open": 3.16,
+   "pct_buried": 66.34,
+   "ways": 43,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "neckinger": {
+   "key": "neckinger",
+   "name": "River Neckinger",
+   "km": 3.42,
+   "km_buried": 2.98,
+   "km_open": 0.44,
+   "pct_buried": 87.04,
+   "ways": 2,
+   "types": [
+    "canal",
+    "stream"
+   ],
+   "boroughs": [
+    "Southwark",
+    "Lambeth"
+   ],
+   "lost": "neckinger"
+  },
+  "new": {
+   "key": "new",
+   "name": "New River",
+   "km": 18.15,
+   "km_buried": 3.22,
+   "km_open": 14.93,
+   "pct_buried": 17.72,
+   "ways": 45,
+   "types": [
+    "canal",
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Haringey",
+    "Hackney",
+    "Islington"
+   ],
+   "lost": ""
+  },
+  "new river loop bypassed": {
+   "key": "new river loop bypassed",
+   "name": "New River Loop (bypassed)",
+   "km": 3.07,
+   "km_buried": 0.94,
+   "km_open": 2.13,
+   "pct_buried": 30.64,
+   "ways": 21,
+   "types": [
+    "canal",
+    "river"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "newyears green bourne": {
+   "key": "newyears green bourne",
+   "name": "Newyears Green Bourne",
+   "km": 1.05,
+   "km_buried": 0.04,
+   "km_open": 1.01,
+   "pct_buried": 4.27,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "norbury brook": {
+   "key": "norbury brook",
+   "name": "Norbury Brook",
+   "km": 3.68,
+   "km_buried": 0.9,
+   "km_open": 2.78,
+   "pct_buried": 24.51,
+   "ways": 33,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Croydon",
+    "Lambeth"
+   ],
+   "lost": "graveney"
+  },
+  "norwood top lock 90 7 10": {
+   "key": "norwood top lock 90 7 10",
+   "name": "Norwood Top Lock 90 7,10\"",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "old river lea": {
+   "key": "old river lea",
+   "name": "Old River Lea",
+   "km": 0.71,
+   "km_buried": 0.0,
+   "km_open": 0.71,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets",
+    "Hackney"
+   ],
+   "lost": ""
+  },
+  "osterley lock 98 5 7": {
+   "key": "osterley lock 98 5 7",
+   "name": "Osterley Lock 98 5,7\"",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "overflow": {
+   "key": "overflow",
+   "name": "Overflow",
+   "km": 0.03,
+   "km_buried": 0.03,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "paines brook": {
+   "key": "paines brook",
+   "name": "Paines Brook",
+   "km": 1.42,
+   "km_buried": 0.09,
+   "km_open": 1.34,
+   "pct_buried": 6.1,
+   "ways": 13,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "partridge stream": {
+   "key": "partridge stream",
+   "name": "Partridge Stream",
+   "km": 0.76,
+   "km_buried": 0.06,
+   "km_open": 0.7,
+   "pct_buried": 7.39,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "petts wood ditch": {
+   "key": "petts wood ditch",
+   "name": "Petts Wood Ditch",
+   "km": 1.4,
+   "km_buried": 0.02,
+   "km_open": 1.37,
+   "pct_buried": 1.7,
+   "ways": 8,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "pickle ditch": {
+   "key": "pickle ditch",
+   "name": "Pickle Ditch",
+   "km": 0.73,
+   "km_buried": 0.07,
+   "km_open": 0.66,
+   "pct_buried": 10.2,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Merton"
+   ],
+   "lost": ""
+  },
+  "pinn": {
+   "key": "pinn",
+   "name": "River Pinn",
+   "km": 19.47,
+   "km_buried": 2.4,
+   "km_open": 17.08,
+   "pct_buried": 12.3,
+   "ways": 32,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon",
+    "Harrow"
+   ],
+   "lost": ""
+  },
+  "pond wood ditch": {
+   "key": "pond wood ditch",
+   "name": "Pond Wood Ditch",
+   "km": 0.26,
+   "km_buried": 0.0,
+   "km_open": 0.26,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "pool": {
+   "key": "pool",
+   "name": "Pool River",
+   "km": 3.3,
+   "km_buried": 0.23,
+   "km_open": 3.07,
+   "pct_buried": 7.1,
+   "ways": 3,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Lewisham",
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "portlane brook": {
+   "key": "portlane brook",
+   "name": "Portlane Brook",
+   "km": 1.63,
+   "km_buried": 0.03,
+   "km_open": 1.6,
+   "pct_buried": 1.58,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "prescott channel": {
+   "key": "prescott channel",
+   "name": "Prescott Channel",
+   "km": 0.75,
+   "km_buried": 0.0,
+   "km_open": 0.75,
+   "pct_buried": 0.0,
+   "ways": 7,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "pudding mill": {
+   "key": "pudding mill",
+   "name": "Pudding Mill River",
+   "km": 0.02,
+   "km_buried": 0.0,
+   "km_open": 0.02,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "pyl brook": {
+   "key": "pyl brook",
+   "name": "Pyl Brook",
+   "km": 4.61,
+   "km_buried": 1.07,
+   "km_open": 3.55,
+   "pct_buried": 23.17,
+   "ways": 17,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Merton",
+    "Sutton",
+    "Kingston upon Thames"
+   ],
+   "lost": ""
+  },
+  "pymmes brook": {
+   "key": "pymmes brook",
+   "name": "Pymmes Brook",
+   "km": 15.22,
+   "km_buried": 2.5,
+   "km_open": 12.72,
+   "pct_buried": 16.45,
+   "ways": 32,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Enfield",
+    "Barnet",
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "quaggy": {
+   "key": "quaggy",
+   "name": "River Quaggy",
+   "km": 8.77,
+   "km_buried": 1.24,
+   "km_open": 7.53,
+   "pct_buried": 14.09,
+   "ways": 37,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Lewisham",
+    "Greenwich",
+    "Bromley"
+   ],
+   "lost": "quaggy"
+  },
+  "quaggy hither green": {
+   "key": "quaggy hither green",
+   "name": "Quaggy Hither Green",
+   "km": 1.02,
+   "km_buried": 0.85,
+   "km_open": 0.17,
+   "pct_buried": 82.91,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "radbourne": {
+   "key": "radbourne",
+   "name": "Radbourne River",
+   "km": 0.55,
+   "km_buried": 0.44,
+   "km_open": 0.1,
+   "pct_buried": 81.5,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Ealing"
+   ],
+   "lost": ""
+  },
+  "ravensbourne": {
+   "key": "ravensbourne",
+   "name": "River Ravensbourne",
+   "km": 22.85,
+   "km_buried": 3.67,
+   "km_open": 19.18,
+   "pct_buried": 16.07,
+   "ways": 82,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Lewisham",
+    "Bromley",
+    "Havering",
+    "Greenwich",
+    "Barking and Dagenham",
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "ravensbourne diversion": {
+   "key": "ravensbourne diversion",
+   "name": "River Ravensbourne diversion",
+   "km": 0.31,
+   "km_buried": 0.0,
+   "km_open": 0.31,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "ravine": {
+   "key": "ravine",
+   "name": "The Ravine",
+   "km": 0.58,
+   "km_buried": 0.0,
+   "km_open": 0.58,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Wandsworth",
+    "Merton",
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "regents canal": {
+   "key": "regents canal",
+   "name": "Regent's Canal",
+   "km": 13.47,
+   "km_buried": 0.31,
+   "km_open": 13.16,
+   "pct_buried": 2.27,
+   "ways": 42,
+   "types": [
+    "canal",
+    "stream"
+   ],
+   "boroughs": [
+    "Camden",
+    "Tower Hamlets",
+    "Hackney",
+    "Westminster",
+    "Islington"
+   ],
+   "lost": ""
+  },
+  "roding": {
+   "key": "roding",
+   "name": "River Roding",
+   "km": 12.25,
+   "km_buried": 0.19,
+   "km_open": 12.05,
+   "pct_buried": 1.59,
+   "ways": 10,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Redbridge",
+    "Newham",
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "rom": {
+   "key": "rom",
+   "name": "River Rom",
+   "km": 7.44,
+   "km_buried": 0.97,
+   "km_open": 6.47,
+   "pct_buried": 13.01,
+   "ways": 20,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Havering",
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "roundabout sewer": {
+   "key": "roundabout sewer",
+   "name": "Roundabout Sewer",
+   "km": 0.78,
+   "km_buried": 0.05,
+   "km_open": 0.73,
+   "pct_buried": 6.49,
+   "ways": 6,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "roxbourne": {
+   "key": "roxbourne",
+   "name": "The Roxbourne",
+   "km": 4.82,
+   "km_buried": 2.22,
+   "km_open": 2.6,
+   "pct_buried": 46.0,
+   "ways": 14,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon",
+    "Harrow"
+   ],
+   "lost": ""
+  },
+  "ruislip canal feeder": {
+   "key": "ruislip canal feeder",
+   "name": "Ruislip Canal Feeder",
+   "km": 1.93,
+   "km_buried": 0.27,
+   "km_open": 1.66,
+   "pct_buried": 13.91,
+   "ways": 20,
+   "types": [
+    "ditch",
+    "drain",
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon"
+   ],
+   "lost": ""
+  },
+  "saddlers mill stream": {
+   "key": "saddlers mill stream",
+   "name": "Saddler's Mill Stream",
+   "km": 5.14,
+   "km_buried": 4.66,
+   "km_open": 0.49,
+   "pct_buried": 90.55,
+   "ways": 6,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "salmons brook": {
+   "key": "salmons brook",
+   "name": "Salmons Brook",
+   "km": 14.0,
+   "km_buried": 1.8,
+   "km_open": 12.2,
+   "pct_buried": 12.86,
+   "ways": 33,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "seven kings water": {
+   "key": "seven kings water",
+   "name": "Seven Kings Water",
+   "km": 5.7,
+   "km_buried": 3.49,
+   "km_open": 2.21,
+   "pct_buried": 61.26,
+   "ways": 10,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Redbridge"
+   ],
+   "lost": ""
+  },
+  "ship and shovel sewer": {
+   "key": "ship and shovel sewer",
+   "name": "Ship and Shovel Sewer",
+   "km": 2.73,
+   "km_buried": 0.17,
+   "km_open": 2.55,
+   "pct_buried": 6.39,
+   "ways": 3,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "shirebourne": {
+   "key": "shirebourne",
+   "name": "Shirebourne",
+   "km": 0.39,
+   "km_buried": 0.0,
+   "km_open": 0.39,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "shuttle": {
+   "key": "shuttle",
+   "name": "River Shuttle",
+   "km": 7.99,
+   "km_buried": 1.38,
+   "km_open": 6.62,
+   "pct_buried": 17.25,
+   "ways": 43,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley",
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "silk stream": {
+   "key": "silk stream",
+   "name": "Silk Stream",
+   "km": 5.67,
+   "km_buried": 0.16,
+   "km_open": 5.5,
+   "pct_buried": 2.9,
+   "ways": 21,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet",
+    "Brent"
+   ],
+   "lost": ""
+  },
+  "small river lea": {
+   "key": "small river lea",
+   "name": "Small River Lea",
+   "km": 1.36,
+   "km_buried": 0.0,
+   "km_open": 1.36,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "small stream": {
+   "key": "small stream",
+   "name": "Small Stream",
+   "km": 0.18,
+   "km_buried": 0.0,
+   "km_open": 0.18,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "soakaway": {
+   "key": "soakaway",
+   "name": "Soakaway",
+   "km": 0.12,
+   "km_buried": 0.05,
+   "km_open": 0.07,
+   "pct_buried": 41.0,
+   "ways": 2,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Sutton"
+   ],
+   "lost": ""
+  },
+  "south dock": {
+   "key": "south dock",
+   "name": "South Dock",
+   "km": 0.33,
+   "km_buried": 0.0,
+   "km_open": 0.33,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "south dock lock": {
+   "key": "south dock lock",
+   "name": "South Dock Lock",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "southmere": {
+   "key": "southmere",
+   "name": "Southmere",
+   "km": 0.53,
+   "km_buried": 0.0,
+   "km_open": 0.53,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "sparrow ditch": {
+   "key": "sparrow ditch",
+   "name": "Sparrow Ditch",
+   "km": 0.19,
+   "km_buried": 0.0,
+   "km_open": 0.19,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "spring brook": {
+   "key": "spring brook",
+   "name": "Spring Brook",
+   "km": 1.48,
+   "km_buried": 0.3,
+   "km_open": 1.19,
+   "pct_buried": 20.03,
+   "ways": 11,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Lewisham"
+   ],
+   "lost": ""
+  },
+  "st katharine docks lock": {
+   "key": "st katharine docks lock",
+   "name": "St Katharine Docks Lock",
+   "km": 0.06,
+   "km_buried": 0.0,
+   "km_open": 0.06,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "st pancras lock regents canal lock 4": {
+   "key": "st pancras lock regents canal lock 4",
+   "name": "St Pancras Lock   Regents Canal Lock 4",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "st thomas creek": {
+   "key": "st thomas creek",
+   "name": "St Thomas Creek",
+   "km": 0.52,
+   "km_buried": 0.0,
+   "km_open": 0.52,
+   "pct_buried": 0.0,
+   "ways": 6,
+   "types": [
+    "canal",
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "staines reservoir aqueduct": {
+   "key": "staines reservoir aqueduct",
+   "name": "Staines Reservoir Aqueduct",
+   "km": 0.02,
+   "km_buried": 0.02,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "staines reservoirs aqueduct": {
+   "key": "staines reservoirs aqueduct",
+   "name": "Staines Reservoirs Aqueduct",
+   "km": 0.67,
+   "km_buried": 0.0,
+   "km_open": 0.67,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "stanham": {
+   "key": "stanham",
+   "name": "Stanham River",
+   "km": 1.74,
+   "km_buried": 0.21,
+   "km_open": 1.54,
+   "pct_buried": 11.8,
+   "ways": 10,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "steelyard cut": {
+   "key": "steelyard cut",
+   "name": "Steelyard Cut",
+   "km": 0.09,
+   "km_buried": 0.0,
+   "km_open": 0.09,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "stonebridge brook": {
+   "key": "stonebridge brook",
+   "name": "Stonebridge Brook",
+   "km": 5.25,
+   "km_buried": 5.23,
+   "km_open": 0.02,
+   "pct_buried": 99.56,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Haringey"
+   ],
+   "lost": ""
+  },
+  "strawberry vale brook": {
+   "key": "strawberry vale brook",
+   "name": "Strawberry Vale Brook",
+   "km": 0.27,
+   "km_buried": 0.01,
+   "km_open": 0.26,
+   "pct_buried": 4.06,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barnet"
+   ],
+   "lost": ""
+  },
+  "sudbrook": {
+   "key": "sudbrook",
+   "name": "Sudbrook",
+   "km": 3.35,
+   "km_buried": 1.79,
+   "km_open": 1.57,
+   "pct_buried": 53.3,
+   "ways": 10,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "surbiton stream": {
+   "key": "surbiton stream",
+   "name": "Surbiton Stream",
+   "km": 2.94,
+   "km_buried": 0.28,
+   "km_open": 2.66,
+   "pct_buried": 9.43,
+   "ways": 10,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Kingston upon Thames"
+   ],
+   "lost": ""
+  },
+  "thames": {
+   "key": "thames",
+   "name": "River Thames",
+   "km": 75.48,
+   "km_buried": 0.0,
+   "km_open": 75.47,
+   "pct_buried": 0.01,
+   "ways": 80,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Richmond upon Thames",
+    "Hounslow",
+    "Tower Hamlets",
+    "Newham",
+    "Barking and Dagenham",
+    "Wandsworth"
+   ],
+   "lost": ""
+  },
+  "thames locks": {
+   "key": "thames locks",
+   "name": "Thames Locks",
+   "km": 0.03,
+   "km_buried": 0.0,
+   "km_open": 0.03,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [],
+   "lost": ""
+  },
+  "thomsons stream": {
+   "key": "thomsons stream",
+   "name": "Thomson's Stream",
+   "km": 0.22,
+   "km_buried": 0.0,
+   "km_open": 0.22,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Richmond upon Thames"
+   ],
+   "lost": ""
+  },
+  "three mills wall": {
+   "key": "three mills wall",
+   "name": "Three Mills Wall River",
+   "km": 0.81,
+   "km_buried": 0.01,
+   "km_open": 0.79,
+   "pct_buried": 1.6,
+   "ways": 6,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets",
+    "Newham"
+   ],
+   "lost": ""
+  },
+  "tongs farm ditch": {
+   "key": "tongs farm ditch",
+   "name": "Tong's Farm Ditch",
+   "km": 0.14,
+   "km_buried": 0.0,
+   "km_open": 0.14,
+   "pct_buried": 2.2,
+   "ways": 2,
+   "types": [
+    "ditch"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "turkey brook": {
+   "key": "turkey brook",
+   "name": "Turkey Brook",
+   "km": 10.17,
+   "km_buried": 0.06,
+   "km_open": 10.11,
+   "pct_buried": 0.61,
+   "ways": 12,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Enfield"
+   ],
+   "lost": ""
+  },
+  "tyburn": {
+   "key": "tyburn",
+   "name": "River Tyburn",
+   "km": 12.06,
+   "km_buried": 12.06,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "ways": 11,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Westminster",
+    "Camden",
+    "Wandsworth"
+   ],
+   "lost": "tyburn"
+  },
+  "walbrook": {
+   "key": "walbrook",
+   "name": "Walbrook",
+   "km": 1.85,
+   "km_buried": 1.74,
+   "km_open": 0.11,
+   "pct_buried": 93.91,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "City of London",
+    "Southwark"
+   ],
+   "lost": "walbrook"
+  },
+  "walk wood ditch": {
+   "key": "walk wood ditch",
+   "name": "Walk Wood Ditch",
+   "km": 0.59,
+   "km_buried": 0.22,
+   "km_open": 0.37,
+   "pct_buried": 37.21,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "wandle": {
+   "key": "wandle",
+   "name": "River Wandle",
+   "km": 21.08,
+   "km_buried": 3.15,
+   "km_open": 17.94,
+   "pct_buried": 14.92,
+   "ways": 70,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Merton",
+    "Sutton",
+    "Wandsworth",
+    "Croydon"
+   ],
+   "lost": ""
+  },
+  "wansunt": {
+   "key": "wansunt",
+   "name": "Wansunt",
+   "km": 1.34,
+   "km_buried": 0.33,
+   "km_open": 1.01,
+   "pct_buried": 24.55,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bexley"
+   ],
+   "lost": ""
+  },
+  "wantz stream": {
+   "key": "wantz stream",
+   "name": "Wantz Stream",
+   "km": 3.34,
+   "km_buried": 2.18,
+   "km_open": 1.16,
+   "pct_buried": 65.23,
+   "ways": 2,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "waterfield canal": {
+   "key": "waterfield canal",
+   "name": "Waterfield Canal",
+   "km": 0.68,
+   "km_buried": 0.0,
+   "km_open": 0.68,
+   "pct_buried": 0.0,
+   "ways": 3,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Barking and Dagenham"
+   ],
+   "lost": ""
+  },
+  "waterworks": {
+   "key": "waterworks",
+   "name": "Waterworks River",
+   "km": 1.26,
+   "km_buried": 0.0,
+   "km_open": 1.26,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets",
+    "Newham",
+    "Hackney"
+   ],
+   "lost": ""
+  },
+  "weald brook": {
+   "key": "weald brook",
+   "name": "Weald Brook",
+   "km": 3.17,
+   "km_buried": 1.15,
+   "km_open": 2.02,
+   "pct_buried": 36.41,
+   "ways": 9,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Havering"
+   ],
+   "lost": ""
+  },
+  "wealdstone brook": {
+   "key": "wealdstone brook",
+   "name": "Wealdstone Brook",
+   "km": 5.93,
+   "km_buried": 0.99,
+   "km_open": 4.94,
+   "pct_buried": 16.74,
+   "ways": 26,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Brent",
+    "Harrow"
+   ],
+   "lost": ""
+  },
+  "well hall stream": {
+   "key": "well hall stream",
+   "name": "Well Hall Stream",
+   "km": 3.51,
+   "km_buried": 2.67,
+   "km_open": 0.83,
+   "pct_buried": 76.23,
+   "ways": 16,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "wembley brook": {
+   "key": "wembley brook",
+   "name": "Wembley Brook",
+   "km": 1.92,
+   "km_buried": 0.33,
+   "km_open": 1.59,
+   "pct_buried": 17.14,
+   "ways": 7,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Brent"
+   ],
+   "lost": ""
+  },
+  "west dock": {
+   "key": "west dock",
+   "name": "West Dock",
+   "km": 0.2,
+   "km_buried": 0.0,
+   "km_open": 0.2,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Southwark"
+   ],
+   "lost": ""
+  },
+  "west india docks entrace lock": {
+   "key": "west india docks entrace lock",
+   "name": "West India Docks Entrace Lock",
+   "km": 0.14,
+   "km_buried": 0.0,
+   "km_open": 0.14,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "canal"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "west india docks entrance path": {
+   "key": "west india docks entrance path",
+   "name": "West India Docks Entrance Path",
+   "km": 0.31,
+   "km_buried": 0.0,
+   "km_open": 0.31,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "river"
+   ],
+   "boroughs": [
+    "Tower Hamlets"
+   ],
+   "lost": ""
+  },
+  "westbourne": {
+   "key": "westbourne",
+   "name": "River Westbourne",
+   "km": 12.64,
+   "km_buried": 12.51,
+   "km_open": 0.13,
+   "pct_buried": 98.99,
+   "ways": 7,
+   "types": [
+    "drain"
+   ],
+   "boroughs": [
+    "Westminster",
+    "Brent",
+    "Camden",
+    "Kensington and Chelsea",
+    "Barnet"
+   ],
+   "lost": "westbourne"
+  },
+  "whitton brook": {
+   "key": "whitton brook",
+   "name": "Whitton Brook",
+   "km": 0.53,
+   "km_buried": 0.04,
+   "km_open": 0.49,
+   "pct_buried": 8.08,
+   "ways": 4,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Hounslow"
+   ],
+   "lost": ""
+  },
+  "willet ditch": {
+   "key": "willet ditch",
+   "name": "Willet Ditch",
+   "km": 0.41,
+   "km_buried": 0.0,
+   "km_open": 0.41,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "willmore": {
+   "key": "willmore",
+   "name": "River Willmore",
+   "km": 1.85,
+   "km_buried": 1.67,
+   "km_open": 0.19,
+   "pct_buried": 90.0,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "wncham stream": {
+   "key": "wncham stream",
+   "name": "Wncham Stream",
+   "km": 0.15,
+   "km_buried": 0.0,
+   "km_open": 0.15,
+   "pct_buried": 0.0,
+   "ways": 1,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley"
+   ],
+   "lost": ""
+  },
+  "wogebourne": {
+   "key": "wogebourne",
+   "name": "Wogebourne",
+   "km": 7.19,
+   "km_buried": 4.56,
+   "km_open": 2.63,
+   "pct_buried": 63.43,
+   "ways": 31,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Greenwich",
+    "Bexley"
+   ],
+   "lost": "wogebourne"
+  },
+  "woodland corridor": {
+   "key": "woodland corridor",
+   "name": "Woodland Corridor",
+   "km": 0.31,
+   "km_buried": 0.04,
+   "km_open": 0.27,
+   "pct_buried": 12.04,
+   "ways": 3,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Redbridge"
+   ],
+   "lost": ""
+  },
+  "wyncham stream": {
+   "key": "wyncham stream",
+   "name": "Wyncham Stream",
+   "km": 4.3,
+   "km_buried": 1.16,
+   "km_open": 3.14,
+   "pct_buried": 27.0,
+   "ways": 28,
+   "types": [
+    "stream"
+   ],
+   "boroughs": [
+    "Bromley",
+    "Bexley",
+    "Greenwich"
+   ],
+   "lost": ""
+  },
+  "yeading brook": {
+   "key": "yeading brook",
+   "name": "Yeading Brook",
+   "km": 20.64,
+   "km_buried": 2.34,
+   "km_open": 18.3,
+   "pct_buried": 11.33,
+   "ways": 40,
+   "types": [
+    "river",
+    "stream"
+   ],
+   "boroughs": [
+    "Hillingdon",
+    "Harrow",
+    "Ealing"
+   ],
+   "lost": ""
+  }
+ },
+ "rank": {
+  "min_km": 3.0,
+  "n_big": 79,
+  "n_big_over_half": 21,
+  "n_big_all": 4,
+  "n_big_none": 8,
+  "by_share": [
+   {
+    "key": "tyburn",
+    "name": "River Tyburn",
+    "km": 12.06,
+    "km_buried": 12.06,
+    "pct": 100.0
+   },
+   {
+    "key": "muswell stream",
+    "name": "Muswell Stream",
+    "km": 4.25,
+    "km_buried": 4.25,
+    "pct": 100.0
+   },
+   {
+    "key": "cholmeley brook",
+    "name": "Cholmeley Brook",
+    "km": 3.27,
+    "km_buried": 3.27,
+    "pct": 100.0
+   },
+   {
+    "key": "stonebridge brook",
+    "name": "Stonebridge Brook",
+    "km": 5.25,
+    "km_buried": 5.23,
+    "pct": 99.56
+   },
+   {
+    "key": "westbourne",
+    "name": "River Westbourne",
+    "km": 12.64,
+    "km_buried": 12.51,
+    "pct": 98.99
+   },
+   {
+    "key": "lower kid brook",
+    "name": "Lower Kid Brook",
+    "km": 3.09,
+    "km_buried": 2.92,
+    "pct": 94.42
+   },
+   {
+    "key": "fleet",
+    "name": "River Fleet",
+    "km": 11.47,
+    "km_buried": 10.62,
+    "pct": 92.57
+   },
+   {
+    "key": "moselle",
+    "name": "Moselle Brook",
+    "km": 17.34,
+    "km_buried": 15.72,
+    "pct": 90.69
+   },
+   {
+    "key": "saddlers mill stream",
+    "name": "Saddler's Mill Stream",
+    "km": 5.14,
+    "km_buried": 4.66,
+    "pct": 90.55
+   },
+   {
+    "key": "neckinger",
+    "name": "River Neckinger",
+    "km": 3.42,
+    "km_buried": 2.98,
+    "pct": 87.04
+   },
+   {
+    "key": "cran brook",
+    "name": "Cran Brook",
+    "km": 5.05,
+    "km_buried": 4.35,
+    "pct": 86.14
+   },
+   {
+    "key": "bourne",
+    "name": "The Bourne",
+    "km": 3.68,
+    "km_buried": 2.93,
+    "pct": 79.54
+   },
+   {
+    "key": "well hall stream",
+    "name": "Well Hall Stream",
+    "km": 3.51,
+    "km_buried": 2.67,
+    "pct": 76.23
+   },
+   {
+    "key": "mutton brook",
+    "name": "Mutton Brook",
+    "km": 9.37,
+    "km_buried": 6.22,
+    "pct": 66.34
+   },
+   {
+    "key": "wantz stream",
+    "name": "Wantz Stream",
+    "km": 3.34,
+    "km_buried": 2.18,
+    "pct": 65.23
+   }
+  ],
+  "by_km": [
+   {
+    "key": "moselle",
+    "name": "Moselle Brook",
+    "km": 17.34,
+    "km_buried": 15.72,
+    "pct": 90.69
+   },
+   {
+    "key": "westbourne",
+    "name": "River Westbourne",
+    "km": 12.64,
+    "km_buried": 12.51,
+    "pct": 98.99
+   },
+   {
+    "key": "tyburn",
+    "name": "River Tyburn",
+    "km": 12.06,
+    "km_buried": 12.06,
+    "pct": 100.0
+   },
+   {
+    "key": "fleet",
+    "name": "River Fleet",
+    "km": 11.47,
+    "km_buried": 10.62,
+    "pct": 92.57
+   },
+   {
+    "key": "mutton brook",
+    "name": "Mutton Brook",
+    "km": 9.37,
+    "km_buried": 6.22,
+    "pct": 66.34
+   },
+   {
+    "key": "stonebridge brook",
+    "name": "Stonebridge Brook",
+    "km": 5.25,
+    "km_buried": 5.23,
+    "pct": 99.56
+   },
+   {
+    "key": "saddlers mill stream",
+    "name": "Saddler's Mill Stream",
+    "km": 5.14,
+    "km_buried": 4.66,
+    "pct": 90.55
+   },
+   {
+    "key": "wogebourne",
+    "name": "Wogebourne",
+    "km": 7.19,
+    "km_buried": 4.56,
+    "pct": 63.43
+   },
+   {
+    "key": "cran brook",
+    "name": "Cran Brook",
+    "km": 5.05,
+    "km_buried": 4.35,
+    "pct": 86.14
+   },
+   {
+    "key": "muswell stream",
+    "name": "Muswell Stream",
+    "km": 4.25,
+    "km_buried": 4.25,
+    "pct": 100.0
+   },
+   {
+    "key": "ravensbourne",
+    "name": "River Ravensbourne",
+    "km": 22.85,
+    "km_buried": 3.67,
+    "pct": 16.07
+   },
+   {
+    "key": "seven kings water",
+    "name": "Seven Kings Water",
+    "km": 5.7,
+    "km_buried": 3.49,
+    "pct": 61.26
+   },
+   {
+    "key": "cholmeley brook",
+    "name": "Cholmeley Brook",
+    "km": 3.27,
+    "km_buried": 3.27,
+    "pct": 100.0
+   },
+   {
+    "key": "new",
+    "name": "New River",
+    "km": 18.15,
+    "km_buried": 3.22,
+    "pct": 17.72
+   },
+   {
+    "key": "wandle",
+    "name": "River Wandle",
+    "km": 21.08,
+    "km_buried": 3.15,
+    "pct": 14.92
+   }
+  ],
+  "top4_km_buried": 50.91,
+  "top4_pct_of_buried": 22.35
+ },
+ "big_rivers": {
+  "thames": {
+   "name": "River Thames",
+   "km": 75.48,
+   "pct": 0.01
+  },
+  "lea": {
+   "name": "River Lea",
+   "km": 4.7,
+   "pct": 0.78
+  },
+  "wandle": {
+   "name": "River Wandle",
+   "km": 21.08,
+   "pct": 14.92
+  },
+  "brent": {
+   "name": "River Brent",
+   "km": 20.77,
+   "pct": 6.98
+  },
+  "ravensbourne": {
+   "name": "River Ravensbourne",
+   "km": 22.85,
+   "pct": 16.07
+  },
+  "crane": {
+   "name": "River Crane",
+   "km": 15.51,
+   "pct": 2.63
+  },
+  "colne": {
+   "name": "River Colne",
+   "km": 3.44,
+   "pct": 20.25
+  },
+  "roding": {
+   "name": "River Roding",
+   "km": 12.25,
+   "pct": 1.59
+  }
+ },
+ "sub": {
+  "north_n": 19,
+  "south_n": 12,
+  "n": 31,
+  "north": [
+   "River Brent (partially underground)",
+   "Stamford Brook",
+   "Parrs Ditch",
+   "Counter's Creek",
+   "River Westbourne",
+   "Tyburn Brook",
+   "River Tyburn",
+   "River Fleet, (following Farringdon Street, New Bridge Street and other roads).",
+   "Lamb's Conduit",
+   "Fagswell Brook (Follows the course of Charterhouse Street)",
+   "River Walbrook",
+   "Lorteburn or Langbourne (now dry)",
+   "Brook at Nightingale Lane",
+   "Black Ditch",
+   "Muswell Stream (sub-sub-tributary via Pymmes Brook and the River Lea)",
+   "River Moselle (subtributary via the Lea)",
+   "Hackney Brook (subtributary via the Lea)",
+   "Ham Creek",
+   "River Rom (partially underground)"
+  ],
+  "south": [
+   "Sudbrook (partially underground)",
+   "Beverley Brook (partially underground)",
+   "Graveney (sub tributary of River Wandle)",
+   "Norbury Brook",
+   "Falconbrook",
+   "River Effra",
+   "River Neckinger",
+   "Earl's Sluice",
+   "River Peck",
+   "River Quaggy (partially underground) (sub tributary of River Ravensbourne)",
+   "Wogebourne",
+   "Heathwall Ditch"
+  ],
+  "partly": 5
+ },
+ "wiki_sub": {
+  "lrap_year": 2009
+ },
+ "wiki_meta": {
+  "titles": 38,
+  "missing": [
+   "Falcon Brook",
+   "Ching Brook",
+   "Bounds Green Brook",
+   "Tyburn (village)"
+  ],
+  "dropped": [
+   "Black Ditch",
+   "Norwood",
+   "Kidbrooke",
+   "Lost rivers of London"
+  ],
+  "redirects": {
+   "Black Ditch": "Taiwan Strait",
+   "River Graveney": "Norbury Brook",
+   "Quaggy River": "River Quaggy",
+   "Lost rivers of London": "Subterranean rivers of London"
+  }
+ },
+ "lost": {
+  "fleet": {
+   "key": "fleet",
+   "name": "River Fleet",
+   "side": "N",
+   "osm_names": [
+    "River Fleet",
+    "The Fleet"
+   ],
+   "osm_keys": [
+    "fleet"
+   ],
+   "km": 11.47,
+   "km_buried": 10.62,
+   "km_open": 0.85,
+   "pct_buried": 92.57,
+   "mapped": 1,
+   "wiki": "River Fleet",
+   "url": "https://en.wikipedia.org/wiki/River_Fleet",
+   "lat": 51.51083333,
+   "lon": -0.10444444,
+   "story": "The largest of London's buried rivers. It rises in the Hampstead and Highgate ponds and gives its name to Fleet Street; its lower reaches, the Holbourne, gave Holborn its name. After the Great Fire it became the New Canal, finished in 1680 under Robert Hooke; it was covered over in stages from 1737 to the 1870s and now runs as a sewer. You can still hear it through a grating in Ray Street, Clerkenwell.",
+   "famous": 1,
+   "boroughs": [
+    "Camden",
+    "Haringey"
+   ]
+  },
+  "tyburn": {
+   "key": "tyburn",
+   "name": "River Tyburn",
+   "side": "N",
+   "osm_names": [
+    "Tyburn"
+   ],
+   "osm_keys": [
+    "tyburn"
+   ],
+   "km": 12.06,
+   "km_buried": 12.06,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": "River Tyburn",
+   "url": "https://en.wikipedia.org/wiki/River_Tyburn",
+   "lat": 51.5136,
+   "lon": -0.1486,
+   "story": "Rises at the Shepherd's Well in Hampstead and runs in underground conduits for its whole length, including one beneath Buckingham Palace. Where it split near the Thames it made Thorney Island, on which Westminster Abbey was built. Marylebone Lane still bends along its old bank, and the Tyburn gave its name to the gallows at the end of Oxford Street.",
+   "famous": 1,
+   "boroughs": [
+    "Westminster",
+    "Camden",
+    "Wandsworth"
+   ]
+  },
+  "westbourne": {
+   "key": "westbourne",
+   "name": "River Westbourne",
+   "side": "N",
+   "osm_names": [
+    "River Westbourne",
+    "Westbourne"
+   ],
+   "osm_keys": [
+    "westbourne"
+   ],
+   "km": 12.64,
+   "km_buried": 12.51,
+   "km_open": 0.13,
+   "pct_buried": 98.99,
+   "mapped": 1,
+   "wiki": "River Westbourne",
+   "url": "https://en.wikipedia.org/wiki/River_Westbourne",
+   "lat": 51.485,
+   "lon": -0.1538,
+   "story": "Also called the Kilburn, it gave Bayswater its name. It was dammed in 1730 to make the Serpentine in Hyde Park, which it stopped feeding in 1834 once it had become a sewer. Its pipe still crosses above the platforms of Sloane Square tube station, and it survived the bombing of the station in 1940.",
+   "famous": 1,
+   "boroughs": [
+    "Westminster",
+    "Brent",
+    "Camden",
+    "Kensington and Chelsea",
+    "Barnet"
+   ]
+  },
+  "effra": {
+   "key": "effra",
+   "name": "River Effra",
+   "side": "S",
+   "osm_names": [
+    "Effra"
+   ],
+   "osm_keys": [
+    "effra"
+   ],
+   "km": 0.13,
+   "km_buried": 0.13,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": "River Effra",
+   "url": "https://en.wikipedia.org/wiki/River_Effra",
+   "lat": 51.4872,
+   "lon": -0.1257,
+   "story": "Rises in Upper Norwood and runs under Brixton. By 1821 it was an open sewer below North Brixton, and in 1847 it was arched over as far up as Herne Hill. Bazalgette folded it into his southern sewers. A local story holds that a coffin once fell from a Norwood grave into the buried river and floated to the Thames.",
+   "famous": 1,
+   "boroughs": [
+    "Lambeth",
+    "Wandsworth"
+   ]
+  },
+  "walbrook": {
+   "key": "walbrook",
+   "name": "Walbrook",
+   "side": "N",
+   "osm_names": [
+    "Walbrook"
+   ],
+   "osm_keys": [
+    "walbrook"
+   ],
+   "km": 1.85,
+   "km_buried": 1.74,
+   "km_open": 0.11,
+   "pct_buried": 93.91,
+   "mapped": 1,
+   "wiki": "Walbrook",
+   "url": "https://en.wikipedia.org/wiki/Walbrook",
+   "lat": 51.5124,
+   "lon": -0.09,
+   "story": "The City of London's own stream, now underground. The street called Walbrook follows its lower course, and the valley can still be seen where it meets Cannon Street. The Bank of England and Mansion House stand in the ward named after it.",
+   "famous": 1,
+   "boroughs": [
+    "City of London",
+    "Southwark"
+   ]
+  },
+  "neckinger": {
+   "key": "neckinger",
+   "name": "River Neckinger",
+   "side": "S",
+   "osm_names": [
+    "River Neckinger"
+   ],
+   "osm_keys": [
+    "neckinger"
+   ],
+   "km": 3.42,
+   "km_buried": 2.98,
+   "km_open": 0.44,
+   "pct_buried": 87.04,
+   "mapped": 1,
+   "wiki": "River Neckinger",
+   "url": "https://en.wikipedia.org/wiki/River_Neckinger",
+   "lat": 51.50055556,
+   "lon": -0.07333333,
+   "story": "A short stream from St George's Fields in Southwark to St Saviour's Dock. In 1838 Dickens called Jacob's Island, the district on its tidal ditches, the filthiest of the many places hidden in London, and in 1849 the Morning Chronicle called it the very capital of cholera. In Oliver Twist a branch of it is Folly Ditch.",
+   "famous": 1,
+   "boroughs": [
+    "Southwark",
+    "Lambeth"
+   ]
+  },
+  "counters creek": {
+   "key": "counters creek",
+   "name": "Counter's Creek",
+   "side": "N",
+   "osm_names": [
+    "Chelsea Creek"
+   ],
+   "osm_keys": [
+    "chelsea creek"
+   ],
+   "km": 0.47,
+   "km_buried": 0.0,
+   "km_open": 0.47,
+   "pct_buried": 0.0,
+   "mapped": 1,
+   "wiki": "Counter's Creek",
+   "url": "https://en.wikipedia.org/wiki/Counter's_Creek",
+   "lat": 51.47472222,
+   "lon": -0.18027778,
+   "story": "Flowed from Kensal Green past Earl's Court to the Thames at Sands End. Its lowest part was turned into the Kensington Canal from 1824, and much of the rest was culverted from 1859 to carry the West London Line. Stamford Bridge, home of Chelsea FC, is named after a bridge over it. Only its tidal mouth, Chelsea Creek, is still open.",
+   "famous": 1,
+   "boroughs": [
+    "Hammersmith and Fulham",
+    "Kensington and Chelsea"
+   ]
+  },
+  "hackney brook": {
+   "key": "hackney brook",
+   "name": "Hackney Brook",
+   "side": "N",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Hackney Brook",
+   "url": "https://en.wikipedia.org/wiki/Hackney_Brook",
+   "lat": 51.5634,
+   "lon": -0.0884,
+   "story": "Rose near Holloway Road and flowed through Stoke Newington and Hackney to the Lea at Old Ford. Until the late 1830s it was up to 10 metres wide at Stoke Newington. In 1860 Bazalgette's northern high level sewer swallowed it. Builders in the 1860s found flint axes about 200,000 years old on its banks.",
+   "famous": 0,
+   "boroughs": []
+  },
+  "moselle": {
+   "key": "moselle",
+   "name": "Moselle Brook",
+   "side": "N",
+   "osm_names": [
+    "Moselle Brook",
+    "River Moselle"
+   ],
+   "osm_keys": [
+    "moselle"
+   ],
+   "km": 17.34,
+   "km_buried": 15.72,
+   "km_open": 1.61,
+   "pct_buried": 90.69,
+   "mapped": 1,
+   "wiki": "Moselle Brook",
+   "url": "https://en.wikipedia.org/wiki/Moselle_Brook",
+   "lat": 51.6045,
+   "lon": -0.0736,
+   "story": "Rises in Muswell Hill and Highgate and flows through Tottenham. Its stretch by Tottenham High Road and White Hart Lane was covered in 1836, and more culverting from 1906 left it enclosed all the way from Tottenham Cemetery to Pymmes Brook. Muswell Hill shares its name.",
+   "famous": 1,
+   "boroughs": [
+    "Haringey",
+    "Enfield"
+   ]
+  },
+  "peck": {
+   "key": "peck",
+   "name": "River Peck",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "River Peck",
+   "url": "https://en.wikipedia.org/wiki/River_Peck",
+   "lat": 51.4581,
+   "lon": -0.0588,
+   "story": "A small stream that gave Peckham its name, the homestead of the Peck. It was enclosed in 1823 and still comes to the surface on the west side of Peckham Rye Park before joining Earl's Sluice.",
+   "famous": 0,
+   "boroughs": []
+  },
+  "earls sluice": {
+   "key": "earls sluice",
+   "name": "Earl's Sluice",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Earl's Sluice",
+   "url": "https://en.wikipedia.org/wiki/Earl's_Sluice",
+   "lat": 51.49305556,
+   "lon": -0.03231389,
+   "story": "Runs underground from Ruskin Park on Denmark Hill to the Thames at Deptford Wharf, along the old boundary between Kent and Surrey. Where it crossed the Old Kent Road, Chaucer's pilgrims watered their horses at St Thomas-a-Watering.",
+   "famous": 0,
+   "boroughs": []
+  },
+  "stamford brook": {
+   "key": "stamford brook",
+   "name": "Stamford Brook",
+   "side": "N",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Stamford Brook",
+   "url": "https://en.wikipedia.org/wiki/Stamford_Brook",
+   "lat": 51.4904,
+   "lon": -0.2341,
+   "story": "A web of small streams between Acton, Hammersmith and Chiswick. By 1900 all six strands had been covered over and turned into sewers. It gave its name to the district and to Stamford Brook tube station.",
+   "famous": 0,
+   "boroughs": []
+  },
+  "muswell stream": {
+   "key": "muswell stream",
+   "name": "Muswell Stream",
+   "side": "N",
+   "osm_names": [
+    "Muswell Stream"
+   ],
+   "osm_keys": [
+    "muswell stream"
+   ],
+   "km": 4.25,
+   "km_buried": 4.25,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A headwater of Pymmes Brook below Muswell Hill, listed by Wikipedia among the subterranean rivers as a tributary of a tributary of the Lea. Every metre of it that OpenStreetMap maps is underground.",
+   "famous": 1,
+   "boroughs": [
+    "Haringey",
+    "Enfield",
+    "Barnet"
+   ]
+  },
+  "falcon brook": {
+   "key": "falcon brook",
+   "name": "Falcon Brook",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A south London stream, listed by Wikipedia as one of the subterranean rivers (as Falconbrook). It has no article of its own in the source and is not mapped as a waterway in OpenStreetMap.",
+   "famous": 0,
+   "boroughs": []
+  },
+  "wogebourne": {
+   "key": "wogebourne",
+   "name": "Wogebourne",
+   "side": "S",
+   "osm_names": [
+    "Wogebourne"
+   ],
+   "osm_keys": [
+    "wogebourne"
+   ],
+   "km": 7.19,
+   "km_buried": 4.56,
+   "km_open": 2.63,
+   "pct_buried": 63.43,
+   "mapped": 1,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A stream in south east London, listed by Wikipedia as one of the subterranean rivers. Part of it is still open and part runs in culverts.",
+   "famous": 0,
+   "boroughs": [
+    "Greenwich",
+    "Bexley"
+   ]
+  },
+  "graveney": {
+   "key": "graveney",
+   "name": "River Graveney",
+   "side": "S",
+   "osm_names": [
+    "Norbury Brook",
+    "River Graveney"
+   ],
+   "osm_keys": [
+    "graveney",
+    "norbury brook"
+   ],
+   "km": 8.68,
+   "km_buried": 2.62,
+   "km_open": 6.07,
+   "pct_buried": 30.14,
+   "mapped": 1,
+   "wiki": "Norbury Brook",
+   "url": "https://en.wikipedia.org/wiki/Norbury_Brook",
+   "lat": 51.4252,
+   "lon": -0.1849,
+   "story": "A tributary of the Wandle, with its upper course known as Norbury Brook. It runs partly in deep concrete channels; its tributary the Little Graveney Stream was culverted early in the twentieth century and can no longer be seen.",
+   "famous": 0,
+   "boroughs": [
+    "Croydon",
+    "Merton",
+    "Wandsworth",
+    "Lambeth",
+    "Lambeth"
+   ]
+  },
+  "quaggy": {
+   "key": "quaggy",
+   "name": "River Quaggy",
+   "side": "S",
+   "osm_names": [
+    "River Quaggy"
+   ],
+   "osm_keys": [
+    "quaggy"
+   ],
+   "km": 8.77,
+   "km_buried": 1.24,
+   "km_open": 7.53,
+   "pct_buried": 14.09,
+   "mapped": 1,
+   "wiki": "River Quaggy",
+   "url": "https://en.wikipedia.org/wiki/River_Quaggy",
+   "lat": 51.45555556,
+   "lon": -0.00333333,
+   "story": "Listed as partly underground. In the 1960s it was put into straight concrete channels to stop flooding; at Chinbrook Meadows the concrete was torn out and the river given back its meanders in 2002, a model for bringing London's rivers back to the surface.",
+   "famous": 0,
+   "boroughs": [
+    "Lewisham",
+    "Greenwich",
+    "Bromley"
+   ]
+  }
+ },
+ "lost_list": [
+  {
+   "key": "fleet",
+   "name": "River Fleet",
+   "side": "N",
+   "osm_names": [
+    "River Fleet",
+    "The Fleet"
+   ],
+   "osm_keys": [
+    "fleet"
+   ],
+   "km": 11.47,
+   "km_buried": 10.62,
+   "km_open": 0.85,
+   "pct_buried": 92.57,
+   "mapped": 1,
+   "wiki": "River Fleet",
+   "url": "https://en.wikipedia.org/wiki/River_Fleet",
+   "lat": 51.51083333,
+   "lon": -0.10444444,
+   "story": "The largest of London's buried rivers. It rises in the Hampstead and Highgate ponds and gives its name to Fleet Street; its lower reaches, the Holbourne, gave Holborn its name. After the Great Fire it became the New Canal, finished in 1680 under Robert Hooke; it was covered over in stages from 1737 to the 1870s and now runs as a sewer. You can still hear it through a grating in Ray Street, Clerkenwell.",
+   "famous": 1,
+   "boroughs": [
+    "Camden",
+    "Haringey"
+   ]
+  },
+  {
+   "key": "tyburn",
+   "name": "River Tyburn",
+   "side": "N",
+   "osm_names": [
+    "Tyburn"
+   ],
+   "osm_keys": [
+    "tyburn"
+   ],
+   "km": 12.06,
+   "km_buried": 12.06,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": "River Tyburn",
+   "url": "https://en.wikipedia.org/wiki/River_Tyburn",
+   "lat": 51.5136,
+   "lon": -0.1486,
+   "story": "Rises at the Shepherd's Well in Hampstead and runs in underground conduits for its whole length, including one beneath Buckingham Palace. Where it split near the Thames it made Thorney Island, on which Westminster Abbey was built. Marylebone Lane still bends along its old bank, and the Tyburn gave its name to the gallows at the end of Oxford Street.",
+   "famous": 1,
+   "boroughs": [
+    "Westminster",
+    "Camden",
+    "Wandsworth"
+   ]
+  },
+  {
+   "key": "westbourne",
+   "name": "River Westbourne",
+   "side": "N",
+   "osm_names": [
+    "River Westbourne",
+    "Westbourne"
+   ],
+   "osm_keys": [
+    "westbourne"
+   ],
+   "km": 12.64,
+   "km_buried": 12.51,
+   "km_open": 0.13,
+   "pct_buried": 98.99,
+   "mapped": 1,
+   "wiki": "River Westbourne",
+   "url": "https://en.wikipedia.org/wiki/River_Westbourne",
+   "lat": 51.485,
+   "lon": -0.1538,
+   "story": "Also called the Kilburn, it gave Bayswater its name. It was dammed in 1730 to make the Serpentine in Hyde Park, which it stopped feeding in 1834 once it had become a sewer. Its pipe still crosses above the platforms of Sloane Square tube station, and it survived the bombing of the station in 1940.",
+   "famous": 1,
+   "boroughs": [
+    "Westminster",
+    "Brent",
+    "Camden",
+    "Kensington and Chelsea",
+    "Barnet"
+   ]
+  },
+  {
+   "key": "effra",
+   "name": "River Effra",
+   "side": "S",
+   "osm_names": [
+    "Effra"
+   ],
+   "osm_keys": [
+    "effra"
+   ],
+   "km": 0.13,
+   "km_buried": 0.13,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": "River Effra",
+   "url": "https://en.wikipedia.org/wiki/River_Effra",
+   "lat": 51.4872,
+   "lon": -0.1257,
+   "story": "Rises in Upper Norwood and runs under Brixton. By 1821 it was an open sewer below North Brixton, and in 1847 it was arched over as far up as Herne Hill. Bazalgette folded it into his southern sewers. A local story holds that a coffin once fell from a Norwood grave into the buried river and floated to the Thames.",
+   "famous": 1,
+   "boroughs": [
+    "Lambeth",
+    "Wandsworth"
+   ]
+  },
+  {
+   "key": "walbrook",
+   "name": "Walbrook",
+   "side": "N",
+   "osm_names": [
+    "Walbrook"
+   ],
+   "osm_keys": [
+    "walbrook"
+   ],
+   "km": 1.85,
+   "km_buried": 1.74,
+   "km_open": 0.11,
+   "pct_buried": 93.91,
+   "mapped": 1,
+   "wiki": "Walbrook",
+   "url": "https://en.wikipedia.org/wiki/Walbrook",
+   "lat": 51.5124,
+   "lon": -0.09,
+   "story": "The City of London's own stream, now underground. The street called Walbrook follows its lower course, and the valley can still be seen where it meets Cannon Street. The Bank of England and Mansion House stand in the ward named after it.",
+   "famous": 1,
+   "boroughs": [
+    "City of London",
+    "Southwark"
+   ]
+  },
+  {
+   "key": "neckinger",
+   "name": "River Neckinger",
+   "side": "S",
+   "osm_names": [
+    "River Neckinger"
+   ],
+   "osm_keys": [
+    "neckinger"
+   ],
+   "km": 3.42,
+   "km_buried": 2.98,
+   "km_open": 0.44,
+   "pct_buried": 87.04,
+   "mapped": 1,
+   "wiki": "River Neckinger",
+   "url": "https://en.wikipedia.org/wiki/River_Neckinger",
+   "lat": 51.50055556,
+   "lon": -0.07333333,
+   "story": "A short stream from St George's Fields in Southwark to St Saviour's Dock. In 1838 Dickens called Jacob's Island, the district on its tidal ditches, the filthiest of the many places hidden in London, and in 1849 the Morning Chronicle called it the very capital of cholera. In Oliver Twist a branch of it is Folly Ditch.",
+   "famous": 1,
+   "boroughs": [
+    "Southwark",
+    "Lambeth"
+   ]
+  },
+  {
+   "key": "counters creek",
+   "name": "Counter's Creek",
+   "side": "N",
+   "osm_names": [
+    "Chelsea Creek"
+   ],
+   "osm_keys": [
+    "chelsea creek"
+   ],
+   "km": 0.47,
+   "km_buried": 0.0,
+   "km_open": 0.47,
+   "pct_buried": 0.0,
+   "mapped": 1,
+   "wiki": "Counter's Creek",
+   "url": "https://en.wikipedia.org/wiki/Counter's_Creek",
+   "lat": 51.47472222,
+   "lon": -0.18027778,
+   "story": "Flowed from Kensal Green past Earl's Court to the Thames at Sands End. Its lowest part was turned into the Kensington Canal from 1824, and much of the rest was culverted from 1859 to carry the West London Line. Stamford Bridge, home of Chelsea FC, is named after a bridge over it. Only its tidal mouth, Chelsea Creek, is still open.",
+   "famous": 1,
+   "boroughs": [
+    "Hammersmith and Fulham",
+    "Kensington and Chelsea"
+   ]
+  },
+  {
+   "key": "hackney brook",
+   "name": "Hackney Brook",
+   "side": "N",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Hackney Brook",
+   "url": "https://en.wikipedia.org/wiki/Hackney_Brook",
+   "lat": 51.5634,
+   "lon": -0.0884,
+   "story": "Rose near Holloway Road and flowed through Stoke Newington and Hackney to the Lea at Old Ford. Until the late 1830s it was up to 10 metres wide at Stoke Newington. In 1860 Bazalgette's northern high level sewer swallowed it. Builders in the 1860s found flint axes about 200,000 years old on its banks.",
+   "famous": 0,
+   "boroughs": []
+  },
+  {
+   "key": "moselle",
+   "name": "Moselle Brook",
+   "side": "N",
+   "osm_names": [
+    "Moselle Brook",
+    "River Moselle"
+   ],
+   "osm_keys": [
+    "moselle"
+   ],
+   "km": 17.34,
+   "km_buried": 15.72,
+   "km_open": 1.61,
+   "pct_buried": 90.69,
+   "mapped": 1,
+   "wiki": "Moselle Brook",
+   "url": "https://en.wikipedia.org/wiki/Moselle_Brook",
+   "lat": 51.6045,
+   "lon": -0.0736,
+   "story": "Rises in Muswell Hill and Highgate and flows through Tottenham. Its stretch by Tottenham High Road and White Hart Lane was covered in 1836, and more culverting from 1906 left it enclosed all the way from Tottenham Cemetery to Pymmes Brook. Muswell Hill shares its name.",
+   "famous": 1,
+   "boroughs": [
+    "Haringey",
+    "Enfield"
+   ]
+  },
+  {
+   "key": "peck",
+   "name": "River Peck",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "River Peck",
+   "url": "https://en.wikipedia.org/wiki/River_Peck",
+   "lat": 51.4581,
+   "lon": -0.0588,
+   "story": "A small stream that gave Peckham its name, the homestead of the Peck. It was enclosed in 1823 and still comes to the surface on the west side of Peckham Rye Park before joining Earl's Sluice.",
+   "famous": 0,
+   "boroughs": []
+  },
+  {
+   "key": "earls sluice",
+   "name": "Earl's Sluice",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Earl's Sluice",
+   "url": "https://en.wikipedia.org/wiki/Earl's_Sluice",
+   "lat": 51.49305556,
+   "lon": -0.03231389,
+   "story": "Runs underground from Ruskin Park on Denmark Hill to the Thames at Deptford Wharf, along the old boundary between Kent and Surrey. Where it crossed the Old Kent Road, Chaucer's pilgrims watered their horses at St Thomas-a-Watering.",
+   "famous": 0,
+   "boroughs": []
+  },
+  {
+   "key": "stamford brook",
+   "name": "Stamford Brook",
+   "side": "N",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": "Stamford Brook",
+   "url": "https://en.wikipedia.org/wiki/Stamford_Brook",
+   "lat": 51.4904,
+   "lon": -0.2341,
+   "story": "A web of small streams between Acton, Hammersmith and Chiswick. By 1900 all six strands had been covered over and turned into sewers. It gave its name to the district and to Stamford Brook tube station.",
+   "famous": 0,
+   "boroughs": []
+  },
+  {
+   "key": "muswell stream",
+   "name": "Muswell Stream",
+   "side": "N",
+   "osm_names": [
+    "Muswell Stream"
+   ],
+   "osm_keys": [
+    "muswell stream"
+   ],
+   "km": 4.25,
+   "km_buried": 4.25,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "mapped": 1,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A headwater of Pymmes Brook below Muswell Hill, listed by Wikipedia among the subterranean rivers as a tributary of a tributary of the Lea. Every metre of it that OpenStreetMap maps is underground.",
+   "famous": 1,
+   "boroughs": [
+    "Haringey",
+    "Enfield",
+    "Barnet"
+   ]
+  },
+  {
+   "key": "falcon brook",
+   "name": "Falcon Brook",
+   "side": "S",
+   "osm_names": [],
+   "osm_keys": [],
+   "km": 0.0,
+   "km_buried": 0.0,
+   "km_open": 0.0,
+   "pct_buried": null,
+   "mapped": 0,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A south London stream, listed by Wikipedia as one of the subterranean rivers (as Falconbrook). It has no article of its own in the source and is not mapped as a waterway in OpenStreetMap.",
+   "famous": 0,
+   "boroughs": []
+  },
+  {
+   "key": "wogebourne",
+   "name": "Wogebourne",
+   "side": "S",
+   "osm_names": [
+    "Wogebourne"
+   ],
+   "osm_keys": [
+    "wogebourne"
+   ],
+   "km": 7.19,
+   "km_buried": 4.56,
+   "km_open": 2.63,
+   "pct_buried": 63.43,
+   "mapped": 1,
+   "wiki": null,
+   "url": null,
+   "lat": null,
+   "lon": null,
+   "story": "A stream in south east London, listed by Wikipedia as one of the subterranean rivers. Part of it is still open and part runs in culverts.",
+   "famous": 0,
+   "boroughs": [
+    "Greenwich",
+    "Bexley"
+   ]
+  },
+  {
+   "key": "graveney",
+   "name": "River Graveney",
+   "side": "S",
+   "osm_names": [
+    "Norbury Brook",
+    "River Graveney"
+   ],
+   "osm_keys": [
+    "graveney",
+    "norbury brook"
+   ],
+   "km": 8.68,
+   "km_buried": 2.62,
+   "km_open": 6.07,
+   "pct_buried": 30.14,
+   "mapped": 1,
+   "wiki": "Norbury Brook",
+   "url": "https://en.wikipedia.org/wiki/Norbury_Brook",
+   "lat": 51.4252,
+   "lon": -0.1849,
+   "story": "A tributary of the Wandle, with its upper course known as Norbury Brook. It runs partly in deep concrete channels; its tributary the Little Graveney Stream was culverted early in the twentieth century and can no longer be seen.",
+   "famous": 0,
+   "boroughs": [
+    "Croydon",
+    "Merton",
+    "Wandsworth",
+    "Lambeth",
+    "Lambeth"
+   ]
+  },
+  {
+   "key": "quaggy",
+   "name": "River Quaggy",
+   "side": "S",
+   "osm_names": [
+    "River Quaggy"
+   ],
+   "osm_keys": [
+    "quaggy"
+   ],
+   "km": 8.77,
+   "km_buried": 1.24,
+   "km_open": 7.53,
+   "pct_buried": 14.09,
+   "mapped": 1,
+   "wiki": "River Quaggy",
+   "url": "https://en.wikipedia.org/wiki/River_Quaggy",
+   "lat": 51.45555556,
+   "lon": -0.00333333,
+   "story": "Listed as partly underground. In the 1960s it was put into straight concrete channels to stop flooding; at Chinbrook Meadows the concrete was torn out and the river given back its meanders in 2002, a model for bringing London's rivers back to the surface.",
+   "famous": 0,
+   "boroughs": [
+    "Lewisham",
+    "Greenwich",
+    "Bromley"
+   ]
+  }
+ ],
+ "lost_sum": {
+  "n": 17,
+  "mapped": 12,
+  "unmapped": 5,
+  "unmapped_names": [
+   "Hackney Brook",
+   "River Peck",
+   "Earl's Sluice",
+   "Stamford Brook",
+   "Falcon Brook"
+  ],
+  "km": 88.27,
+  "km_buried": 68.43,
+  "pct_buried": 77.52,
+  "pct_of_gl_buried": 30.04,
+  "big3_km": 36.17,
+  "big3_buried": 35.19,
+  "big3_pct": 97.29
+ },
+ "wiki": {
+  "fleet_canal": 1680,
+  "fleet_market": 1737,
+  "fleet_bridge": 1769,
+  "fleet_camden": 1812,
+  "fleet_last": "1870s",
+  "fleet_pope": 1728,
+  "fleet_miles": 4,
+  "tyburn_km": 11,
+  "tyburn_sewer0": 1848,
+  "tyburn_sewer1": 1856,
+  "west_serp": 1730,
+  "west_stop": 1834,
+  "west_bomb": 1940,
+  "effra_sewer": 1821,
+  "effra_basin": 20,
+  "effra_arch": 1847,
+  "effra_flood": 1914,
+  "effra_campaign": 1992,
+  "neck_km": "2.5",
+  "neck_dickens": 1838,
+  "neck_chron": 1849,
+  "count_canal": 1824,
+  "count_rail0": 1859,
+  "hack_sewer": 1860,
+  "hack_m": 10,
+  "hack_axes": "200,000",
+  "mos_cover": 1836,
+  "mos_more": 1906,
+  "peck": 1823,
+  "stam": 1900,
+  "quag_concrete": "1960s",
+  "quag_restored": 2002
+ },
+ "boroughs": {
+  "Wandsworth": {
+   "borough": "Wandsworth",
+   "label": "Wandsworth",
+   "inner": 1,
+   "area_km2": 37.0,
+   "km": 14.71,
+   "km_buried": 1.21,
+   "km_open": 13.5,
+   "pct_buried": 8.21,
+   "buried_m_per_km2": 33,
+   "km_per_km2": 0.398
+  },
+  "Merton": {
+   "borough": "Merton",
+   "label": "Merton",
+   "inner": 0,
+   "area_km2": 36.9,
+   "km": 29.45,
+   "km_buried": 6.77,
+   "km_open": 22.68,
+   "pct_buried": 23.0,
+   "buried_m_per_km2": 184,
+   "km_per_km2": 0.798
+  },
+  "Westminster": {
+   "borough": "Westminster",
+   "label": "Westminster",
+   "inner": 1,
+   "area_km2": 17.8,
+   "km": 17.1,
+   "km_buried": 12.62,
+   "km_open": 4.48,
+   "pct_buried": 73.78,
+   "buried_m_per_km2": 709,
+   "km_per_km2": 0.961
+  },
+  "Kensington and Chelsea": {
+   "borough": "Kensington and Chelsea",
+   "label": "Kensington and Chelsea",
+   "inner": 1,
+   "area_km2": 11.2,
+   "km": 1.63,
+   "km_buried": 1.09,
+   "km_open": 0.54,
+   "pct_buried": 66.98,
+   "buried_m_per_km2": 97,
+   "km_per_km2": 0.145
+  },
+  "Hounslow": {
+   "borough": "Hounslow",
+   "label": "Hounslow",
+   "inner": 0,
+   "area_km2": 53.1,
+   "km": 38.41,
+   "km_buried": 2.14,
+   "km_open": 36.27,
+   "pct_buried": 5.58,
+   "buried_m_per_km2": 40,
+   "km_per_km2": 0.723
+  },
+  "Ealing": {
+   "borough": "Ealing",
+   "label": "Ealing",
+   "inner": 0,
+   "area_km2": 53.8,
+   "km": 39.8,
+   "km_buried": 2.0,
+   "km_open": 37.79,
+   "pct_buried": 5.03,
+   "buried_m_per_km2": 37,
+   "km_per_km2": 0.74
+  },
+  "Hammersmith and Fulham": {
+   "borough": "Hammersmith and Fulham",
+   "label": "Hammersmith and Fulham",
+   "inner": 1,
+   "area_km2": 14.3,
+   "km": 1.68,
+   "km_buried": 0.37,
+   "km_open": 1.31,
+   "pct_buried": 21.96,
+   "buried_m_per_km2": 26,
+   "km_per_km2": 0.118
+  },
+  "Richmond upon Thames": {
+   "borough": "Richmond upon Thames",
+   "label": "Richmond upon Thames",
+   "inner": 0,
+   "area_km2": 58.4,
+   "km": 55.08,
+   "km_buried": 4.25,
+   "km_open": 50.84,
+   "pct_buried": 7.71,
+   "buried_m_per_km2": 73,
+   "km_per_km2": 0.943
+  },
+  "City": {
+   "borough": "City",
+   "label": "City of London",
+   "inner": 1,
+   "area_km2": 3.1,
+   "km": 1.6,
+   "km_buried": 1.6,
+   "km_open": 0.0,
+   "pct_buried": 100.0,
+   "buried_m_per_km2": 517,
+   "km_per_km2": 0.517
+  },
+  "Tower Hamlets": {
+   "borough": "Tower Hamlets",
+   "label": "Tower Hamlets",
+   "inner": 1,
+   "area_km2": 22.5,
+   "km": 23.3,
+   "km_buried": 1.64,
+   "km_open": 21.67,
+   "pct_buried": 7.02,
+   "buried_m_per_km2": 73,
+   "km_per_km2": 1.036
+  },
+  "Enfield": {
+   "borough": "Enfield",
+   "label": "Enfield",
+   "inner": 0,
+   "area_km2": 80.1,
+   "km": 113.76,
+   "km_buried": 16.32,
+   "km_open": 97.44,
+   "pct_buried": 14.35,
+   "buried_m_per_km2": 204,
+   "km_per_km2": 1.42
+  },
+  "Barnet": {
+   "borough": "Barnet",
+   "label": "Barnet",
+   "inner": 0,
+   "area_km2": 93.9,
+   "km": 81.42,
+   "km_buried": 17.95,
+   "km_open": 63.46,
+   "pct_buried": 22.05,
+   "buried_m_per_km2": 191,
+   "km_per_km2": 0.867
+  },
+  "Waltham Forest": {
+   "borough": "Waltham Forest",
+   "label": "Waltham Forest",
+   "inner": 0,
+   "area_km2": 37.0,
+   "km": 24.69,
+   "km_buried": 1.63,
+   "km_open": 23.06,
+   "pct_buried": 6.62,
+   "buried_m_per_km2": 44,
+   "km_per_km2": 0.667
+  },
+  "Redbridge": {
+   "borough": "Redbridge",
+   "label": "Redbridge",
+   "inner": 0,
+   "area_km2": 53.6,
+   "km": 29.9,
+   "km_buried": 9.27,
+   "km_open": 20.63,
+   "pct_buried": 31.02,
+   "buried_m_per_km2": 173,
+   "km_per_km2": 0.558
+  },
+  "Havering": {
+   "borough": "Havering",
+   "label": "Havering",
+   "inner": 0,
+   "area_km2": 120.6,
+   "km": 138.7,
+   "km_buried": 7.0,
+   "km_open": 131.7,
+   "pct_buried": 5.05,
+   "buried_m_per_km2": 58,
+   "km_per_km2": 1.15
+  },
+  "Bexley": {
+   "borough": "Bexley",
+   "label": "Bexley",
+   "inner": 0,
+   "area_km2": 65.4,
+   "km": 59.75,
+   "km_buried": 5.73,
+   "km_open": 54.02,
+   "pct_buried": 9.59,
+   "buried_m_per_km2": 88,
+   "km_per_km2": 0.914
+  },
+  "Sutton": {
+   "borough": "Sutton",
+   "label": "Sutton",
+   "inner": 0,
+   "area_km2": 45.3,
+   "km": 14.37,
+   "km_buried": 2.75,
+   "km_open": 11.63,
+   "pct_buried": 19.1,
+   "buried_m_per_km2": 61,
+   "km_per_km2": 0.317
+  },
+  "Hillingdon": {
+   "borough": "Hillingdon",
+   "label": "Hillingdon",
+   "inner": 0,
+   "area_km2": 113.2,
+   "km": 112.51,
+   "km_buried": 6.34,
+   "km_open": 106.17,
+   "pct_buried": 5.63,
+   "buried_m_per_km2": 56,
+   "km_per_km2": 0.994
+  },
+  "Brent": {
+   "borough": "Brent",
+   "label": "Brent",
+   "inner": 0,
+   "area_km2": 45.5,
+   "km": 28.07,
+   "km_buried": 6.0,
+   "km_open": 22.07,
+   "pct_buried": 21.36,
+   "buried_m_per_km2": 132,
+   "km_per_km2": 0.617
+  },
+  "Harrow": {
+   "borough": "Harrow",
+   "label": "Harrow",
+   "inner": 0,
+   "area_km2": 54.9,
+   "km": 29.19,
+   "km_buried": 5.65,
+   "km_open": 23.54,
+   "pct_buried": 19.35,
+   "buried_m_per_km2": 103,
+   "km_per_km2": 0.532
+  },
+  "Camden": {
+   "borough": "Camden",
+   "label": "Camden",
+   "inner": 1,
+   "area_km2": 23.8,
+   "km": 25.86,
+   "km_buried": 18.78,
+   "km_open": 7.08,
+   "pct_buried": 72.63,
+   "buried_m_per_km2": 789,
+   "km_per_km2": 1.086
+  },
+  "Islington": {
+   "borough": "Islington",
+   "label": "Islington",
+   "inner": 1,
+   "area_km2": 11.7,
+   "km": 3.2,
+   "km_buried": 0.56,
+   "km_open": 2.64,
+   "pct_buried": 17.58,
+   "buried_m_per_km2": 48,
+   "km_per_km2": 0.274
+  },
+  "Lambeth": {
+   "borough": "Lambeth",
+   "label": "Lambeth",
+   "inner": 1,
+   "area_km2": 29.2,
+   "km": 2.66,
+   "km_buried": 1.35,
+   "km_open": 1.31,
+   "pct_buried": 50.69,
+   "buried_m_per_km2": 46,
+   "km_per_km2": 0.091
+  },
+  "Southwark": {
+   "borough": "Southwark",
+   "label": "Southwark",
+   "inner": 1,
+   "area_km2": 30.9,
+   "km": 5.61,
+   "km_buried": 2.41,
+   "km_open": 3.2,
+   "pct_buried": 42.99,
+   "buried_m_per_km2": 78,
+   "km_per_km2": 0.182
+  },
+  "Croydon": {
+   "borough": "Croydon",
+   "label": "Croydon",
+   "inner": 0,
+   "area_km2": 83.7,
+   "km": 7.63,
+   "km_buried": 1.17,
+   "km_open": 6.46,
+   "pct_buried": 15.3,
+   "buried_m_per_km2": 14,
+   "km_per_km2": 0.091
+  },
+  "Lewisham": {
+   "borough": "Lewisham",
+   "label": "Lewisham",
+   "inner": 1,
+   "area_km2": 32.6,
+   "km": 22.74,
+   "km_buried": 4.25,
+   "km_open": 18.49,
+   "pct_buried": 18.69,
+   "buried_m_per_km2": 130,
+   "km_per_km2": 0.698
+  },
+  "Haringey": {
+   "borough": "Haringey",
+   "label": "Haringey",
+   "inner": 0,
+   "area_km2": 29.3,
+   "km": 54.65,
+   "km_buried": 34.14,
+   "km_open": 20.5,
+   "pct_buried": 62.48,
+   "buried_m_per_km2": 1165,
+   "km_per_km2": 1.865
+  },
+  "Kingston upon Thames": {
+   "borough": "Kingston upon Thames",
+   "label": "Kingston upon Thames",
+   "inner": 0,
+   "area_km2": 40.1,
+   "km": 42.9,
+   "km_buried": 2.76,
+   "km_open": 40.14,
+   "pct_buried": 6.43,
+   "buried_m_per_km2": 69,
+   "km_per_km2": 1.07
+  },
+  "Newham": {
+   "borough": "Newham",
+   "label": "Newham",
+   "inner": 0,
+   "area_km2": 40.8,
+   "km": 27.18,
+   "km_buried": 2.97,
+   "km_open": 24.2,
+   "pct_buried": 10.95,
+   "buried_m_per_km2": 73,
+   "km_per_km2": 0.666
+  },
+  "Greenwich": {
+   "borough": "Greenwich",
+   "label": "Greenwich",
+   "inner": 1,
+   "area_km2": 46.1,
+   "km": 44.95,
+   "km_buried": 20.09,
+   "km_open": 24.87,
+   "pct_buried": 44.68,
+   "buried_m_per_km2": 436,
+   "km_per_km2": 0.975
+  },
+  "Hackney": {
+   "borough": "Hackney",
+   "label": "Hackney",
+   "inner": 1,
+   "area_km2": 19.6,
+   "km": 15.7,
+   "km_buried": 0.18,
+   "km_open": 15.52,
+   "pct_buried": 1.17,
+   "buried_m_per_km2": 9,
+   "km_per_km2": 0.801
+  },
+  "Barking and Dagenham": {
+   "borough": "Barking and Dagenham",
+   "label": "Barking and Dagenham",
+   "inner": 0,
+   "area_km2": 42.2,
+   "km": 37.13,
+   "km_buried": 4.96,
+   "km_open": 32.17,
+   "pct_buried": 13.37,
+   "buried_m_per_km2": 118,
+   "km_per_km2": 0.88
+  },
+  "Bromley": {
+   "borough": "Bromley",
+   "label": "Bromley",
+   "inner": 0,
+   "area_km2": 156.8,
+   "km": 75.93,
+   "km_buried": 21.83,
+   "km_open": 54.1,
+   "pct_buried": 28.75,
+   "buried_m_per_km2": 139,
+   "km_per_km2": 0.484
+  }
+ },
+ "bor_by_km": [
+  {
+   "b": "Haringey",
+   "label": "Haringey",
+   "km_buried": 34.14,
+   "pct": 62.48,
+   "inner": 0
+  },
+  {
+   "b": "Bromley",
+   "label": "Bromley",
+   "km_buried": 21.83,
+   "pct": 28.75,
+   "inner": 0
+  },
+  {
+   "b": "Greenwich",
+   "label": "Greenwich",
+   "km_buried": 20.09,
+   "pct": 44.68,
+   "inner": 1
+  },
+  {
+   "b": "Camden",
+   "label": "Camden",
+   "km_buried": 18.78,
+   "pct": 72.63,
+   "inner": 1
+  },
+  {
+   "b": "Barnet",
+   "label": "Barnet",
+   "km_buried": 17.95,
+   "pct": 22.05,
+   "inner": 0
+  },
+  {
+   "b": "Enfield",
+   "label": "Enfield",
+   "km_buried": 16.32,
+   "pct": 14.35,
+   "inner": 0
+  },
+  {
+   "b": "Westminster",
+   "label": "Westminster",
+   "km_buried": 12.62,
+   "pct": 73.78,
+   "inner": 1
+  },
+  {
+   "b": "Redbridge",
+   "label": "Redbridge",
+   "km_buried": 9.27,
+   "pct": 31.02,
+   "inner": 0
+  },
+  {
+   "b": "Havering",
+   "label": "Havering",
+   "km_buried": 7.0,
+   "pct": 5.05,
+   "inner": 0
+  },
+  {
+   "b": "Merton",
+   "label": "Merton",
+   "km_buried": 6.77,
+   "pct": 23.0,
+   "inner": 0
+  },
+  {
+   "b": "Hillingdon",
+   "label": "Hillingdon",
+   "km_buried": 6.34,
+   "pct": 5.63,
+   "inner": 0
+  },
+  {
+   "b": "Brent",
+   "label": "Brent",
+   "km_buried": 6.0,
+   "pct": 21.36,
+   "inner": 0
+  },
+  {
+   "b": "Bexley",
+   "label": "Bexley",
+   "km_buried": 5.73,
+   "pct": 9.59,
+   "inner": 0
+  },
+  {
+   "b": "Harrow",
+   "label": "Harrow",
+   "km_buried": 5.65,
+   "pct": 19.35,
+   "inner": 0
+  },
+  {
+   "b": "Barking and Dagenham",
+   "label": "Barking and Dagenham",
+   "km_buried": 4.96,
+   "pct": 13.37,
+   "inner": 0
+  },
+  {
+   "b": "Lewisham",
+   "label": "Lewisham",
+   "km_buried": 4.25,
+   "pct": 18.69,
+   "inner": 1
+  },
+  {
+   "b": "Richmond upon Thames",
+   "label": "Richmond upon Thames",
+   "km_buried": 4.25,
+   "pct": 7.71,
+   "inner": 0
+  },
+  {
+   "b": "Newham",
+   "label": "Newham",
+   "km_buried": 2.97,
+   "pct": 10.95,
+   "inner": 0
+  },
+  {
+   "b": "Kingston upon Thames",
+   "label": "Kingston upon Thames",
+   "km_buried": 2.76,
+   "pct": 6.43,
+   "inner": 0
+  },
+  {
+   "b": "Sutton",
+   "label": "Sutton",
+   "km_buried": 2.75,
+   "pct": 19.1,
+   "inner": 0
+  },
+  {
+   "b": "Southwark",
+   "label": "Southwark",
+   "km_buried": 2.41,
+   "pct": 42.99,
+   "inner": 1
+  },
+  {
+   "b": "Hounslow",
+   "label": "Hounslow",
+   "km_buried": 2.14,
+   "pct": 5.58,
+   "inner": 0
+  },
+  {
+   "b": "Ealing",
+   "label": "Ealing",
+   "km_buried": 2.0,
+   "pct": 5.03,
+   "inner": 0
+  },
+  {
+   "b": "Tower Hamlets",
+   "label": "Tower Hamlets",
+   "km_buried": 1.64,
+   "pct": 7.02,
+   "inner": 1
+  },
+  {
+   "b": "Waltham Forest",
+   "label": "Waltham Forest",
+   "km_buried": 1.63,
+   "pct": 6.62,
+   "inner": 0
+  },
+  {
+   "b": "City",
+   "label": "City of London",
+   "km_buried": 1.6,
+   "pct": 100.0,
+   "inner": 1
+  },
+  {
+   "b": "Lambeth",
+   "label": "Lambeth",
+   "km_buried": 1.35,
+   "pct": 50.69,
+   "inner": 1
+  },
+  {
+   "b": "Wandsworth",
+   "label": "Wandsworth",
+   "km_buried": 1.21,
+   "pct": 8.21,
+   "inner": 1
+  },
+  {
+   "b": "Croydon",
+   "label": "Croydon",
+   "km_buried": 1.17,
+   "pct": 15.3,
+   "inner": 0
+  },
+  {
+   "b": "Kensington and Chelsea",
+   "label": "Kensington and Chelsea",
+   "km_buried": 1.09,
+   "pct": 66.98,
+   "inner": 1
+  },
+  {
+   "b": "Islington",
+   "label": "Islington",
+   "km_buried": 0.56,
+   "pct": 17.58,
+   "inner": 1
+  },
+  {
+   "b": "Hammersmith and Fulham",
+   "label": "Hammersmith and Fulham",
+   "km_buried": 0.37,
+   "pct": 21.96,
+   "inner": 1
+  },
+  {
+   "b": "Hackney",
+   "label": "Hackney",
+   "km_buried": 0.18,
+   "pct": 1.17,
+   "inner": 1
+  }
+ ],
+ "bor_by_pct": [
+  {
+   "b": "City",
+   "label": "City of London",
+   "km_buried": 1.6,
+   "pct": 100.0,
+   "inner": 1,
+   "km": 1.6
+  },
+  {
+   "b": "Westminster",
+   "label": "Westminster",
+   "km_buried": 12.62,
+   "pct": 73.78,
+   "inner": 1,
+   "km": 17.1
+  },
+  {
+   "b": "Camden",
+   "label": "Camden",
+   "km_buried": 18.78,
+   "pct": 72.63,
+   "inner": 1,
+   "km": 25.86
+  },
+  {
+   "b": "Kensington and Chelsea",
+   "label": "Kensington and Chelsea",
+   "km_buried": 1.09,
+   "pct": 66.98,
+   "inner": 1,
+   "km": 1.63
+  },
+  {
+   "b": "Haringey",
+   "label": "Haringey",
+   "km_buried": 34.14,
+   "pct": 62.48,
+   "inner": 0,
+   "km": 54.65
+  },
+  {
+   "b": "Lambeth",
+   "label": "Lambeth",
+   "km_buried": 1.35,
+   "pct": 50.69,
+   "inner": 1,
+   "km": 2.66
+  },
+  {
+   "b": "Greenwich",
+   "label": "Greenwich",
+   "km_buried": 20.09,
+   "pct": 44.68,
+   "inner": 1,
+   "km": 44.95
+  },
+  {
+   "b": "Southwark",
+   "label": "Southwark",
+   "km_buried": 2.41,
+   "pct": 42.99,
+   "inner": 1,
+   "km": 5.61
+  },
+  {
+   "b": "Redbridge",
+   "label": "Redbridge",
+   "km_buried": 9.27,
+   "pct": 31.02,
+   "inner": 0,
+   "km": 29.9
+  },
+  {
+   "b": "Bromley",
+   "label": "Bromley",
+   "km_buried": 21.83,
+   "pct": 28.75,
+   "inner": 0,
+   "km": 75.93
+  },
+  {
+   "b": "Merton",
+   "label": "Merton",
+   "km_buried": 6.77,
+   "pct": 23.0,
+   "inner": 0,
+   "km": 29.45
+  },
+  {
+   "b": "Barnet",
+   "label": "Barnet",
+   "km_buried": 17.95,
+   "pct": 22.05,
+   "inner": 0,
+   "km": 81.42
+  },
+  {
+   "b": "Hammersmith and Fulham",
+   "label": "Hammersmith and Fulham",
+   "km_buried": 0.37,
+   "pct": 21.96,
+   "inner": 1,
+   "km": 1.68
+  },
+  {
+   "b": "Brent",
+   "label": "Brent",
+   "km_buried": 6.0,
+   "pct": 21.36,
+   "inner": 0,
+   "km": 28.07
+  },
+  {
+   "b": "Harrow",
+   "label": "Harrow",
+   "km_buried": 5.65,
+   "pct": 19.35,
+   "inner": 0,
+   "km": 29.19
+  },
+  {
+   "b": "Sutton",
+   "label": "Sutton",
+   "km_buried": 2.75,
+   "pct": 19.1,
+   "inner": 0,
+   "km": 14.37
+  },
+  {
+   "b": "Lewisham",
+   "label": "Lewisham",
+   "km_buried": 4.25,
+   "pct": 18.69,
+   "inner": 1,
+   "km": 22.74
+  },
+  {
+   "b": "Islington",
+   "label": "Islington",
+   "km_buried": 0.56,
+   "pct": 17.58,
+   "inner": 1,
+   "km": 3.2
+  },
+  {
+   "b": "Croydon",
+   "label": "Croydon",
+   "km_buried": 1.17,
+   "pct": 15.3,
+   "inner": 0,
+   "km": 7.63
+  },
+  {
+   "b": "Enfield",
+   "label": "Enfield",
+   "km_buried": 16.32,
+   "pct": 14.35,
+   "inner": 0,
+   "km": 113.76
+  },
+  {
+   "b": "Barking and Dagenham",
+   "label": "Barking and Dagenham",
+   "km_buried": 4.96,
+   "pct": 13.37,
+   "inner": 0,
+   "km": 37.13
+  },
+  {
+   "b": "Newham",
+   "label": "Newham",
+   "km_buried": 2.97,
+   "pct": 10.95,
+   "inner": 0,
+   "km": 27.18
+  },
+  {
+   "b": "Bexley",
+   "label": "Bexley",
+   "km_buried": 5.73,
+   "pct": 9.59,
+   "inner": 0,
+   "km": 59.75
+  },
+  {
+   "b": "Wandsworth",
+   "label": "Wandsworth",
+   "km_buried": 1.21,
+   "pct": 8.21,
+   "inner": 1,
+   "km": 14.71
+  },
+  {
+   "b": "Richmond upon Thames",
+   "label": "Richmond upon Thames",
+   "km_buried": 4.25,
+   "pct": 7.71,
+   "inner": 0,
+   "km": 55.08
+  },
+  {
+   "b": "Tower Hamlets",
+   "label": "Tower Hamlets",
+   "km_buried": 1.64,
+   "pct": 7.02,
+   "inner": 1,
+   "km": 23.3
+  },
+  {
+   "b": "Waltham Forest",
+   "label": "Waltham Forest",
+   "km_buried": 1.63,
+   "pct": 6.62,
+   "inner": 0,
+   "km": 24.69
+  },
+  {
+   "b": "Kingston upon Thames",
+   "label": "Kingston upon Thames",
+   "km_buried": 2.76,
+   "pct": 6.43,
+   "inner": 0,
+   "km": 42.9
+  },
+  {
+   "b": "Hillingdon",
+   "label": "Hillingdon",
+   "km_buried": 6.34,
+   "pct": 5.63,
+   "inner": 0,
+   "km": 112.51
+  },
+  {
+   "b": "Hounslow",
+   "label": "Hounslow",
+   "km_buried": 2.14,
+   "pct": 5.58,
+   "inner": 0,
+   "km": 38.41
+  },
+  {
+   "b": "Havering",
+   "label": "Havering",
+   "km_buried": 7.0,
+   "pct": 5.05,
+   "inner": 0,
+   "km": 138.7
+  },
+  {
+   "b": "Ealing",
+   "label": "Ealing",
+   "km_buried": 2.0,
+   "pct": 5.03,
+   "inner": 0,
+   "km": 39.8
+  },
+  {
+   "b": "Hackney",
+   "label": "Hackney",
+   "km_buried": 0.18,
+   "pct": 1.17,
+   "inner": 1,
+   "km": 15.7
+  }
+ ],
+ "inner": {
+  "n": 13,
+  "km": 180.74,
+  "km_buried": 66.15,
+  "pct_buried": 36.6,
+  "area_km2": 299.8,
+  "km_per_km2": 0.603,
+  "buried_m_per_km2": 221,
+  "x_share": 2.4,
+  "x_density": 1.8
+ },
+ "outer": {
+  "n": 20,
+  "km": 1040.52,
+  "km_buried": 161.63,
+  "pct_buried": 15.53,
+  "area_km2": 1304.6,
+  "km_per_km2": 0.798,
+  "buried_m_per_km2": 124
+ },
+ "bor_top": {
+  "km1": {
+   "b": "Haringey",
+   "label": "Haringey",
+   "km_buried": 34.14,
+   "pct": 62.48,
+   "inner": 0
+  },
+  "km2": {
+   "b": "Bromley",
+   "label": "Bromley",
+   "km_buried": 21.83,
+   "pct": 28.75,
+   "inner": 0
+  },
+  "km3": {
+   "b": "Greenwich",
+   "label": "Greenwich",
+   "km_buried": 20.09,
+   "pct": 44.68,
+   "inner": 1
+  },
+  "pct1": {
+   "b": "City",
+   "label": "City of London",
+   "km_buried": 1.6,
+   "pct": 100.0,
+   "inner": 1,
+   "km": 1.6
+  },
+  "pct2": {
+   "b": "Westminster",
+   "label": "Westminster",
+   "km_buried": 12.62,
+   "pct": 73.78,
+   "inner": 1,
+   "km": 17.1
+  },
+  "pct3": {
+   "b": "Camden",
+   "label": "Camden",
+   "km_buried": 18.78,
+   "pct": 72.63,
+   "inner": 1,
+   "km": 25.86
+  },
+  "least": {
+   "b": "Hackney",
+   "label": "Hackney",
+   "km_buried": 0.18,
+   "pct": 1.17,
+   "inner": 1,
+   "km": 15.7
+  },
+  "n_over_half": 6,
+  "n_under_10": 11
+ },
+ "meta": {
+  "page": "https://maps.tristanhotham.com/buried-rivers/",
+  "repo": "https://github.com/Tristan-Hotham/buried-rivers",
+  "doi": "10.5281/zenodo.23873535",
+  "blog": "https://blog.tristanhotham.com/2026/10/31/buried-rivers/",
+  "slug": "buried-rivers",
+  "title": "London's buried rivers",
+  "paper_title": "London's Buried Rivers: Open and Culverted Waterways in OpenStreetMap, and the Lost Rivers Beneath the City"
+ }
+}

@@ -1,0 +1,34 @@
+borough,label,inner,area_km2,km,km_buried,km_open,pct_buried,buried_m_per_km2,km_per_km2
+Haringey,Haringey,0,29.3,54.65,34.14,20.5,62.48,1165,1.865
+Bromley,Bromley,0,156.8,75.93,21.83,54.1,28.75,139,0.484
+Greenwich,Greenwich,1,46.1,44.95,20.09,24.87,44.68,436,0.975
+Camden,Camden,1,23.8,25.86,18.78,7.08,72.63,789,1.086
+Barnet,Barnet,0,93.9,81.42,17.95,63.46,22.05,191,0.867
+Enfield,Enfield,0,80.1,113.76,16.32,97.44,14.35,204,1.42
+Westminster,Westminster,1,17.8,17.1,12.62,4.48,73.78,709,0.961
+Redbridge,Redbridge,0,53.6,29.9,9.27,20.63,31.02,173,0.558
+Havering,Havering,0,120.6,138.7,7.0,131.7,5.05,58,1.15
+Merton,Merton,0,36.9,29.45,6.77,22.68,23.0,184,0.798
+Hillingdon,Hillingdon,0,113.2,112.51,6.34,106.17,5.63,56,0.994
+Brent,Brent,0,45.5,28.07,6.0,22.07,21.36,132,0.617
+Bexley,Bexley,0,65.4,59.75,5.73,54.02,9.59,88,0.914
+Harrow,Harrow,0,54.9,29.19,5.65,23.54,19.35,103,0.532
+Barking and Dagenham,Barking and Dagenham,0,42.2,37.13,4.96,32.17,13.37,118,0.88
+Lewisham,Lewisham,1,32.6,22.74,4.25,18.49,18.69,130,0.698
+Richmond upon Thames,Richmond upon Thames,0,58.4,55.08,4.25,50.84,7.71,73,0.943
+Newham,Newham,0,40.8,27.18,2.97,24.2,10.95,73,0.666
+Kingston upon Thames,Kingston upon Thames,0,40.1,42.9,2.76,40.14,6.43,69,1.07
+Sutton,Sutton,0,45.3,14.37,2.75,11.63,19.1,61,0.317
+Southwark,Southwark,1,30.9,5.61,2.41,3.2,42.99,78,0.182
+Hounslow,Hounslow,0,53.1,38.41,2.14,36.27,5.58,40,0.723
+Ealing,Ealing,0,53.8,39.8,2.0,37.79,5.03,37,0.74
+Tower Hamlets,Tower Hamlets,1,22.5,23.3,1.64,21.67,7.02,73,1.036
+Waltham Forest,Waltham Forest,0,37.0,24.69,1.63,23.06,6.62,44,0.667
+City,City of London,1,3.1,1.6,1.6,0.0,100.0,517,0.517
+Lambeth,Lambeth,1,29.2,2.66,1.35,1.31,50.69,46,0.091
+Wandsworth,Wandsworth,1,37.0,14.71,1.21,13.5,8.21,33,0.398
+Croydon,Croydon,0,83.7,7.63,1.17,6.46,15.3,14,0.091
+Kensington and Chelsea,Kensington and Chelsea,1,11.2,1.63,1.09,0.54,66.98,97,0.145
+Islington,Islington,1,11.7,3.2,0.56,2.64,17.58,48,0.274
+Hammersmith and Fulham,Hammersmith and Fulham,1,14.3,1.68,0.37,1.31,21.96,26,0.118
+Hackney,Hackney,1,19.6,15.7,0.18,15.52,1.17,9,0.801
