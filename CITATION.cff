@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "London's Buried Rivers: Open and Culverted Waterways in OpenStreetMap, and the Lost Rivers Beneath the City"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23873535"
+url: "https://maps.tristanhotham.com/buried-rivers/"
+repository-code: "https://github.com/Tristan-Hotham/buried-rivers"
+license: CC-BY-4.0
+keywords:
+  - "London"
+  - "lost rivers"
+  - "subterranean rivers"
+  - "culverts"
+  - "urban streams"
+  - "OpenStreetMap"
+  - "volunteered geographic information"
+  - "sewers"
+  - "open data"
+  - "maps"
